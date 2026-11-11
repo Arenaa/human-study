@@ -2,7 +2,7 @@
 
 Anonymous online study: pick which of two regenerations (**A** / **B**) matches the Original better.
 
-**4 parts × 25 trials**, each part balanced across MSCOCO / FLICKR / LEXICA / JD.
+**4 parts × 24 trials**, each part balanced **6 + 6 + 6 + 6** across MSCOCO / FLICKR / LEXICA / JD.
 
 **Hub:** https://arenaa.github.io/human-study/
 

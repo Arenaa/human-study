@@ -61,7 +61,7 @@ a.mail{color:var(--accent);font-weight:600}
   <section class="card" id="intro">
     <h1>Human preference evaluation <span class="meta" id="partTitle">(Part 1/4)</span></h1>
     <p id="instruction">Loading study…</p>
-    <p class="hint">This part has <b>25</b> trials (balanced across datasets). This study is <b>anonymous</b>.</p>
+    <p class="hint">This part has <b>24</b> trials — <b>6 from each dataset</b>. This study is <b>anonymous</b>.</p>
     <p class="hint">When you finish, a results file downloads automatically. Please email it to
       <a class="mail" href="mailto:mk2524@georgetown.edu">mk2524@georgetown.edu</a>.</p>
     <p class="hint"><a href="index.html">← All parts</a></p>
@@ -155,7 +155,7 @@ async function loadStudy(){
   $('partLabel').textContent = String(PART);
   $('partTitle').textContent = `(Part ${PART}/4)`;
   document.title = `Human preference study — Part ${PART}/4`;
-  const res = await fetch(`study_p${PART}.json?v=parts1`, {cache: 'no-store'});
+  const res = await fetch(`study_p${PART}.json?v=parts2`, {cache: 'no-store'});
   if(!res.ok) throw new Error(`study_p${PART}.json missing`);
   STUDY = await res.json();
   $('instruction').textContent = STUDY.instruction || '';
@@ -165,7 +165,7 @@ async function loadStudy(){
 
 function bindImg(img, src){
   img.alt = img.alt || '';
-  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=parts1';
+  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=parts2';
   const alt = src.endsWith('.jpg') ? src.replace(/\.jpg$/i, '.png')
             : src.endsWith('.png') ? src.replace(/\.png$/i, '.jpg')
             : null;
