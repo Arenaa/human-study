@@ -22,8 +22,8 @@
       "cherry_rank": 23,
       "original": "stimuli/MSCOCO_000000055150/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000055150/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000055150/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000055150/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000055150/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -41,8 +41,8 @@
       "cherry_rank": 18,
       "original": "stimuli/MSCOCO_000000068093/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000068093/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000068093/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000068093/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000068093/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -58,10 +58,10 @@
       "clip_i_promptminer": 0.8773903846740723,
       "clip_margin": 0.0714801549911499,
       "cherry_rank": 25,
-      "original": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/original.png",
+      "original": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/A.png",
-        "PROVE-new": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/B.png"
+        "PromptMiner": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/A.jpg",
+        "PROVE-new": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -79,8 +79,8 @@
       "cherry_rank": 24,
       "original": "stimuli/FLICKR_15715/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_15715/A.png",
-        "PromptMiner": "stimuli/FLICKR_15715/B.png"
+        "PROVE-new": "stimuli/FLICKR_15715/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_15715/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -96,10 +96,10 @@
       "clip_i_promptminer": 0.8728803396224976,
       "clip_margin": 0.07566791772842407,
       "cherry_rank": 20,
-      "original": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/original.png",
+      "original": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/A.png",
-        "PROVE-new": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/B.png"
+        "PromptMiner": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/A.jpg",
+        "PROVE-new": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -117,8 +117,8 @@
       "cherry_rank": 17,
       "original": "stimuli/FLICKR_16439/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16439/A.png",
-        "PROVE-new": "stimuli/FLICKR_16439/B.png"
+        "PromptMiner": "stimuli/FLICKR_16439/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16439/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -136,8 +136,8 @@
       "cherry_rank": 25,
       "original": "stimuli/FLICKR_16665/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_16665/A.png",
-        "PromptMiner": "stimuli/FLICKR_16665/B.png"
+        "PROVE-new": "stimuli/FLICKR_16665/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_16665/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -155,8 +155,8 @@
       "cherry_rank": 14,
       "original": "stimuli/MSCOCO_000000073153/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000073153/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000073153/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000073153/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000073153/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -172,10 +172,10 @@
       "clip_i_promptminer": 0.8212220072746277,
       "clip_margin": 0.12372881174087524,
       "cherry_rank": 8,
-      "original": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/original.png",
+      "original": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/A.png",
-        "PromptMiner": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/B.png"
+        "PROVE-new": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/A.jpg",
+        "PromptMiner": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -191,10 +191,10 @@
       "clip_i_promptminer": 0.8910455703735352,
       "clip_margin": 0.024685204029083252,
       "cherry_rank": 18,
-      "original": "stimuli/LEXICA_022/original.png",
+      "original": "stimuli/LEXICA_022/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_022/A.png",
-        "PromptMiner": "stimuli/LEXICA_022/B.png"
+        "PROVE-new": "stimuli/LEXICA_022/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_022/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -212,8 +212,8 @@
       "cherry_rank": 19,
       "original": "stimuli/MSCOCO_000000421455/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000421455/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000421455/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000421455/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000421455/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -229,10 +229,10 @@
       "clip_i_promptminer": 0.7606310844421387,
       "clip_margin": 0.05546844005584717,
       "cherry_rank": 11,
-      "original": "stimuli/LEXICA_010/original.png",
+      "original": "stimuli/LEXICA_010/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_010/A.png",
-        "PROVE-new": "stimuli/LEXICA_010/B.png"
+        "PromptMiner": "stimuli/LEXICA_010/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_010/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -248,10 +248,10 @@
       "clip_i_promptminer": 0.800003170967102,
       "clip_margin": 0.14375042915344238,
       "cherry_rank": 4,
-      "original": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/original.png",
+      "original": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/A.png",
-        "PromptMiner": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/B.png"
+        "PROVE-new": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/A.jpg",
+        "PromptMiner": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -269,8 +269,8 @@
       "cherry_rank": 6,
       "original": "stimuli/MSCOCO_000000231879/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000231879/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000231879/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000231879/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000231879/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -288,8 +288,8 @@
       "cherry_rank": 10,
       "original": "stimuli/FLICKR_16213/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16213/A.png",
-        "PROVE-new": "stimuli/FLICKR_16213/B.png"
+        "PromptMiner": "stimuli/FLICKR_16213/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16213/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -305,10 +305,10 @@
       "clip_i_promptminer": 0.7352550029754639,
       "clip_margin": 0.13646310567855835,
       "cherry_rank": 6,
-      "original": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/original.png",
+      "original": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/A.png",
-        "PromptMiner": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/B.png"
+        "PROVE-new": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/A.jpg",
+        "PromptMiner": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -326,8 +326,8 @@
       "cherry_rank": 17,
       "original": "stimuli/MSCOCO_000000082085/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000082085/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000082085/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000082085/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000082085/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -343,10 +343,10 @@
       "clip_i_promptminer": 0.7660759091377258,
       "clip_margin": 0.07363414764404297,
       "cherry_rank": 5,
-      "original": "stimuli/LEXICA_005/original.png",
+      "original": "stimuli/LEXICA_005/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_005/A.png",
-        "PromptMiner": "stimuli/LEXICA_005/B.png"
+        "PROVE-new": "stimuli/LEXICA_005/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_005/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -362,10 +362,10 @@
       "clip_i_promptminer": 0.8046042919158936,
       "clip_margin": 0.1327090859413147,
       "cherry_rank": 7,
-      "original": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/original.png",
+      "original": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/A.png",
-        "PROVE-new": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/B.png"
+        "PromptMiner": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/A.jpg",
+        "PROVE-new": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -381,10 +381,10 @@
       "clip_i_promptminer": 0.8528671860694885,
       "clip_margin": 0.07903492450714111,
       "cherry_rank": 18,
-      "original": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/original.png",
+      "original": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/A.png",
-        "PromptMiner": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/B.png"
+        "PROVE-new": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/A.jpg",
+        "PromptMiner": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -402,8 +402,8 @@
       "cherry_rank": 14,
       "original": "stimuli/FLICKR_16693/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_16693/A.png",
-        "PromptMiner": "stimuli/FLICKR_16693/B.png"
+        "PROVE-new": "stimuli/FLICKR_16693/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_16693/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -419,10 +419,10 @@
       "clip_i_promptminer": 0.8604238629341125,
       "clip_margin": 0.08441692590713501,
       "cherry_rank": 16,
-      "original": "stimuli/JD_b22b9676-3608-458b-8523-709bdbccfac9/original.png",
+      "original": "stimuli/JD_b22b9676-3608-458b-8523-709bdbccfac9/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_b22b9676-3608-458b-8523-709bdbccfac9/A.png",
-        "PromptMiner": "stimuli/JD_b22b9676-3608-458b-8523-709bdbccfac9/B.png"
+        "PROVE-new": "stimuli/JD_b22b9676-3608-458b-8523-709bdbccfac9/A.jpg",
+        "PromptMiner": "stimuli/JD_b22b9676-3608-458b-8523-709bdbccfac9/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -440,8 +440,8 @@
       "cherry_rank": 13,
       "original": "stimuli/FLICKR_15044/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_15044/A.png",
-        "PromptMiner": "stimuli/FLICKR_15044/B.png"
+        "PROVE-new": "stimuli/FLICKR_15044/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_15044/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -459,8 +459,8 @@
       "cherry_rank": 19,
       "original": "stimuli/FLICKR_16528/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_16528/A.png",
-        "PromptMiner": "stimuli/FLICKR_16528/B.png"
+        "PROVE-new": "stimuli/FLICKR_16528/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_16528/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -478,8 +478,8 @@
       "cherry_rank": 15,
       "original": "stimuli/FLICKR_16246/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_16246/A.png",
-        "PromptMiner": "stimuli/FLICKR_16246/B.png"
+        "PROVE-new": "stimuli/FLICKR_16246/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_16246/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -495,10 +495,10 @@
       "clip_i_promptminer": 0.6255390644073486,
       "clip_margin": 0.20695620775222778,
       "cherry_rank": 2,
-      "original": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/original.png",
+      "original": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/A.png",
-        "PromptMiner": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/B.png"
+        "PROVE-new": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/A.jpg",
+        "PromptMiner": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -516,8 +516,8 @@
       "cherry_rank": 16,
       "original": "stimuli/MSCOCO_000000485844/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000485844/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000485844/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000485844/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000485844/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -535,8 +535,8 @@
       "cherry_rank": 7,
       "original": "stimuli/MSCOCO_000000173091/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000173091/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000173091/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000173091/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000173091/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -554,8 +554,8 @@
       "cherry_rank": 8,
       "original": "stimuli/MSCOCO_000000060507/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000060507/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000060507/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000060507/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000060507/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -571,10 +571,10 @@
       "clip_i_promptminer": 0.7934152483940125,
       "clip_margin": 0.06398653984069824,
       "cherry_rank": 26,
-      "original": "stimuli/JD_7529493b-6e79-4c0c-a599-98ae24804743/original.png",
+      "original": "stimuli/JD_7529493b-6e79-4c0c-a599-98ae24804743/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_7529493b-6e79-4c0c-a599-98ae24804743/A.png",
-        "PROVE-new": "stimuli/JD_7529493b-6e79-4c0c-a599-98ae24804743/B.png"
+        "PromptMiner": "stimuli/JD_7529493b-6e79-4c0c-a599-98ae24804743/A.jpg",
+        "PROVE-new": "stimuli/JD_7529493b-6e79-4c0c-a599-98ae24804743/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -593,8 +593,8 @@
       "cherry_rank": 12,
       "original": "stimuli/MSCOCO_000000382111/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000382111/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000382111/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000382111/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000382111/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -610,10 +610,10 @@
       "clip_i_promptminer": 0.8701448440551758,
       "clip_margin": 0.01873159408569336,
       "cherry_rank": 24,
-      "original": "stimuli/LEXICA_044/original.png",
+      "original": "stimuli/LEXICA_044/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_044/A.png",
-        "PromptMiner": "stimuli/LEXICA_044/B.png"
+        "PROVE-new": "stimuli/LEXICA_044/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_044/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -631,8 +631,8 @@
       "cherry_rank": 7,
       "original": "stimuli/FLICKR_16273/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_16273/A.png",
-        "PromptMiner": "stimuli/FLICKR_16273/B.png"
+        "PROVE-new": "stimuli/FLICKR_16273/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_16273/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -648,10 +648,10 @@
       "clip_i_promptminer": 0.7979152798652649,
       "clip_margin": 0.07251769304275513,
       "cherry_rank": 23,
-      "original": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/original.png",
+      "original": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/A.png",
-        "PROVE-new": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/B.png"
+        "PromptMiner": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/A.jpg",
+        "PROVE-new": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -667,10 +667,10 @@
       "clip_i_promptminer": 0.9233238101005554,
       "clip_margin": 0.01512223482131958,
       "cherry_rank": 26,
-      "original": "stimuli/LEXICA_067/original.png",
+      "original": "stimuli/LEXICA_067/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_067/A.png",
-        "PromptMiner": "stimuli/LEXICA_067/B.png"
+        "PROVE-new": "stimuli/LEXICA_067/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_067/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -689,8 +689,8 @@
       "cherry_rank": 20,
       "original": "stimuli/MSCOCO_000000091500/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000091500/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000091500/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000091500/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000091500/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -708,8 +708,8 @@
       "cherry_rank": 18,
       "original": "stimuli/FLICKR_16778/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16778/A.png",
-        "PROVE-new": "stimuli/FLICKR_16778/B.png"
+        "PromptMiner": "stimuli/FLICKR_16778/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16778/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -727,8 +727,8 @@
       "cherry_rank": 3,
       "original": "stimuli/FLICKR_16007/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_16007/A.png",
-        "PromptMiner": "stimuli/FLICKR_16007/B.png"
+        "PROVE-new": "stimuli/FLICKR_16007/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_16007/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -746,8 +746,8 @@
       "cherry_rank": 11,
       "original": "stimuli/MSCOCO_000000017714/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000017714/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000017714/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000017714/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000017714/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -765,8 +765,8 @@
       "cherry_rank": 2,
       "original": "stimuli/MSCOCO_000000567197/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000567197/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000567197/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000567197/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000567197/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -782,10 +782,10 @@
       "clip_i_promptminer": 0.872982382774353,
       "clip_margin": 0.049303531646728516,
       "cherry_rank": 12,
-      "original": "stimuli/LEXICA_029/original.png",
+      "original": "stimuli/LEXICA_029/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_029/A.png",
-        "PromptMiner": "stimuli/LEXICA_029/B.png"
+        "PROVE-new": "stimuli/LEXICA_029/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_029/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -803,8 +803,8 @@
       "cherry_rank": 15,
       "original": "stimuli/MSCOCO_000000563349/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000563349/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000563349/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000563349/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000563349/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -822,8 +822,8 @@
       "cherry_rank": 4,
       "original": "stimuli/MSCOCO_000000531135/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000531135/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000531135/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000531135/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000531135/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -841,8 +841,8 @@
       "cherry_rank": 11,
       "original": "stimuli/FLICKR_15270/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_15270/A.png",
-        "PromptMiner": "stimuli/FLICKR_15270/B.png"
+        "PROVE-new": "stimuli/FLICKR_15270/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_15270/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -858,10 +858,10 @@
       "clip_i_promptminer": 0.8776770830154419,
       "clip_margin": 0.0743417739868164,
       "cherry_rank": 21,
-      "original": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/original.png",
+      "original": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/A.png",
-        "PromptMiner": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/B.png"
+        "PROVE-new": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/A.jpg",
+        "PromptMiner": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -879,8 +879,8 @@
       "cherry_rank": 21,
       "original": "stimuli/FLICKR_16300/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16300/A.png",
-        "PROVE-new": "stimuli/FLICKR_16300/B.png"
+        "PromptMiner": "stimuli/FLICKR_16300/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16300/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -896,10 +896,10 @@
       "clip_i_promptminer": 0.9288570284843445,
       "clip_margin": 0.01762944459915161,
       "cherry_rank": 25,
-      "original": "stimuli/LEXICA_035/original.png",
+      "original": "stimuli/LEXICA_035/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_035/A.png",
-        "PROVE-new": "stimuli/LEXICA_035/B.png"
+        "PromptMiner": "stimuli/LEXICA_035/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_035/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -915,10 +915,10 @@
       "clip_i_promptminer": 0.8472909927368164,
       "clip_margin": 0.0858302116394043,
       "cherry_rank": 15,
-      "original": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/original.png",
+      "original": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/A.png",
-        "PROVE-new": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/B.png"
+        "PromptMiner": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/A.jpg",
+        "PROVE-new": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -934,10 +934,10 @@
       "clip_i_promptminer": 0.8871058225631714,
       "clip_margin": 0.022982418537139893,
       "cherry_rank": 21,
-      "original": "stimuli/LEXICA_071/original.png",
+      "original": "stimuli/LEXICA_071/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_071/A.png",
-        "PROVE-new": "stimuli/LEXICA_071/B.png"
+        "PromptMiner": "stimuli/LEXICA_071/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_071/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -953,10 +953,10 @@
       "clip_i_promptminer": 0.8016993999481201,
       "clip_margin": 0.06251859664916992,
       "cherry_rank": 7,
-      "original": "stimuli/LEXICA_050/original.png",
+      "original": "stimuli/LEXICA_050/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_050/A.png",
-        "PROVE-new": "stimuli/LEXICA_050/B.png"
+        "PromptMiner": "stimuli/LEXICA_050/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_050/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -972,10 +972,10 @@
       "clip_i_promptminer": 0.872908890247345,
       "clip_margin": 0.0594295859336853,
       "cherry_rank": 9,
-      "original": "stimuli/LEXICA_090/original.png",
+      "original": "stimuli/LEXICA_090/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_090/A.png",
-        "PROVE-new": "stimuli/LEXICA_090/B.png"
+        "PromptMiner": "stimuli/LEXICA_090/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_090/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -993,8 +993,8 @@
       "cherry_rank": 20,
       "original": "stimuli/FLICKR_16609/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_16609/A.png",
-        "PromptMiner": "stimuli/FLICKR_16609/B.png"
+        "PROVE-new": "stimuli/FLICKR_16609/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_16609/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1010,10 +1010,10 @@
       "clip_i_promptminer": 0.8780337572097778,
       "clip_margin": 0.04395800828933716,
       "cherry_rank": 14,
-      "original": "stimuli/LEXICA_086/original.png",
+      "original": "stimuli/LEXICA_086/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_086/A.png",
-        "PROVE-new": "stimuli/LEXICA_086/B.png"
+        "PromptMiner": "stimuli/LEXICA_086/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_086/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1031,8 +1031,8 @@
       "cherry_rank": 5,
       "original": "stimuli/MSCOCO_000000318138/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000318138/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000318138/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000318138/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000318138/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1050,8 +1050,8 @@
       "cherry_rank": 5,
       "original": "stimuli/FLICKR_15081/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_15081/A.png",
-        "PromptMiner": "stimuli/FLICKR_15081/B.png"
+        "PROVE-new": "stimuli/FLICKR_15081/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_15081/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1067,10 +1067,10 @@
       "clip_i_promptminer": 0.7465944290161133,
       "clip_margin": 0.07916688919067383,
       "cherry_rank": 4,
-      "original": "stimuli/LEXICA_018/original.png",
+      "original": "stimuli/LEXICA_018/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_018/A.png",
-        "PromptMiner": "stimuli/LEXICA_018/B.png"
+        "PROVE-new": "stimuli/LEXICA_018/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_018/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1086,10 +1086,10 @@
       "clip_i_promptminer": 0.8610506653785706,
       "clip_margin": 0.058830320835113525,
       "cherry_rank": 10,
-      "original": "stimuli/LEXICA_060/original.png",
+      "original": "stimuli/LEXICA_060/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_060/A.png",
-        "PROVE-new": "stimuli/LEXICA_060/B.png"
+        "PromptMiner": "stimuli/LEXICA_060/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_060/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1107,8 +1107,8 @@
       "cherry_rank": 2,
       "original": "stimuli/FLICKR_16529/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16529/A.png",
-        "PROVE-new": "stimuli/FLICKR_16529/B.png"
+        "PromptMiner": "stimuli/FLICKR_16529/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16529/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1124,10 +1124,10 @@
       "clip_i_promptminer": 0.8963080048561096,
       "clip_margin": 0.015741348266601562,
       "cherry_rank": 26,
-      "original": "stimuli/LEXICA_063/original.png",
+      "original": "stimuli/LEXICA_063/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_063/A.png",
-        "PromptMiner": "stimuli/LEXICA_063/B.png"
+        "PROVE-new": "stimuli/LEXICA_063/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_063/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1146,8 +1146,8 @@
       "cherry_rank": 9,
       "original": "stimuli/MSCOCO_000000546823/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000546823/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000546823/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000546823/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000546823/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1165,8 +1165,8 @@
       "cherry_rank": 4,
       "original": "stimuli/FLICKR_16631/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16631/A.png",
-        "PROVE-new": "stimuli/FLICKR_16631/B.png"
+        "PromptMiner": "stimuli/FLICKR_16631/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16631/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1184,8 +1184,8 @@
       "cherry_rank": 21,
       "original": "stimuli/MSCOCO_000000111207/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000111207/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000111207/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000111207/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000111207/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1203,8 +1203,8 @@
       "cherry_rank": 6,
       "original": "stimuli/FLICKR_15248/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_15248/A.png",
-        "PROVE-new": "stimuli/FLICKR_15248/B.png"
+        "PromptMiner": "stimuli/FLICKR_15248/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_15248/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1220,10 +1220,10 @@
       "clip_i_promptminer": 0.8005386590957642,
       "clip_margin": 0.07338321208953857,
       "cherry_rank": 22,
-      "original": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/original.png",
+      "original": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/A.png",
-        "PROVE-new": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/B.png"
+        "PromptMiner": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/A.jpg",
+        "PROVE-new": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1239,10 +1239,10 @@
       "clip_i_promptminer": 0.8006370663642883,
       "clip_margin": 0.04259532690048218,
       "cherry_rank": 15,
-      "original": "stimuli/LEXICA_097/original.png",
+      "original": "stimuli/LEXICA_097/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_097/A.png",
-        "PromptMiner": "stimuli/LEXICA_097/B.png"
+        "PROVE-new": "stimuli/LEXICA_097/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_097/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1260,8 +1260,8 @@
       "cherry_rank": 16,
       "original": "stimuli/FLICKR_16294/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16294/A.png",
-        "PROVE-new": "stimuli/FLICKR_16294/B.png"
+        "PromptMiner": "stimuli/FLICKR_16294/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16294/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1279,8 +1279,8 @@
       "cherry_rank": 12,
       "original": "stimuli/FLICKR_15921/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_15921/A.png",
-        "PromptMiner": "stimuli/FLICKR_15921/B.png"
+        "PROVE-new": "stimuli/FLICKR_15921/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_15921/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1298,8 +1298,8 @@
       "cherry_rank": 1,
       "original": "stimuli/MSCOCO_000000154431/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000154431/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000154431/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000154431/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000154431/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1317,8 +1317,8 @@
       "cherry_rank": 22,
       "original": "stimuli/FLICKR_16680/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16680/A.png",
-        "PROVE-new": "stimuli/FLICKR_16680/B.png"
+        "PromptMiner": "stimuli/FLICKR_16680/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16680/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1336,8 +1336,8 @@
       "cherry_rank": 24,
       "original": "stimuli/MSCOCO_000000343937/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000343937/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000343937/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000343937/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000343937/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1353,10 +1353,10 @@
       "clip_i_promptminer": 0.9286376237869263,
       "clip_margin": 0.019625604152679443,
       "cherry_rank": 22,
-      "original": "stimuli/LEXICA_030/original.png",
+      "original": "stimuli/LEXICA_030/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_030/A.png",
-        "PromptMiner": "stimuli/LEXICA_030/B.png"
+        "PROVE-new": "stimuli/LEXICA_030/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_030/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1372,10 +1372,10 @@
       "clip_i_promptminer": 0.8506170511245728,
       "clip_margin": 0.04176151752471924,
       "cherry_rank": 16,
-      "original": "stimuli/LEXICA_017/original.png",
+      "original": "stimuli/LEXICA_017/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_017/A.png",
-        "PROVE-new": "stimuli/LEXICA_017/B.png"
+        "PromptMiner": "stimuli/LEXICA_017/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_017/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1391,10 +1391,10 @@
       "clip_i_promptminer": 0.8752844333648682,
       "clip_margin": 0.07236164808273315,
       "cherry_rank": 24,
-      "original": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/original.png",
+      "original": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/A.png",
-        "PROVE-new": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/B.png"
+        "PromptMiner": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/A.jpg",
+        "PROVE-new": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1410,10 +1410,10 @@
       "clip_i_promptminer": 0.8183397054672241,
       "clip_margin": 0.059732794761657715,
       "cherry_rank": 8,
-      "original": "stimuli/LEXICA_052/original.png",
+      "original": "stimuli/LEXICA_052/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_052/A.png",
-        "PromptMiner": "stimuli/LEXICA_052/B.png"
+        "PROVE-new": "stimuli/LEXICA_052/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_052/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1431,8 +1431,8 @@
       "cherry_rank": 23,
       "original": "stimuli/FLICKR_15656/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/FLICKR_15656/A.png",
-        "PromptMiner": "stimuli/FLICKR_15656/B.png"
+        "PROVE-new": "stimuli/FLICKR_15656/A.jpg",
+        "PromptMiner": "stimuli/FLICKR_15656/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1448,10 +1448,10 @@
       "clip_i_promptminer": 0.9380148649215698,
       "clip_margin": 0.014058828353881836,
       "cherry_rank": 26,
-      "original": "stimuli/LEXICA_023/original.png",
+      "original": "stimuli/LEXICA_023/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_023/A.png",
-        "PromptMiner": "stimuli/LEXICA_023/B.png"
+        "PROVE-new": "stimuli/LEXICA_023/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_023/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1470,8 +1470,8 @@
       "cherry_rank": 1,
       "original": "stimuli/FLICKR_16376/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16376/A.png",
-        "PROVE-new": "stimuli/FLICKR_16376/B.png"
+        "PromptMiner": "stimuli/FLICKR_16376/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16376/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1489,8 +1489,8 @@
       "cherry_rank": 25,
       "original": "stimuli/MSCOCO_000000066135/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000066135/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000066135/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000066135/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000066135/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1506,10 +1506,10 @@
       "clip_i_promptminer": 0.7935118675231934,
       "clip_margin": 0.06499278545379639,
       "cherry_rank": 6,
-      "original": "stimuli/LEXICA_015/original.png",
+      "original": "stimuli/LEXICA_015/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_015/A.png",
-        "PromptMiner": "stimuli/LEXICA_015/B.png"
+        "PROVE-new": "stimuli/LEXICA_015/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_015/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1525,10 +1525,10 @@
       "clip_i_promptminer": 0.8344440460205078,
       "clip_margin": 0.1036078929901123,
       "cherry_rank": 10,
-      "original": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/original.png",
+      "original": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/A.png",
-        "PromptMiner": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/B.png"
+        "PROVE-new": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/A.jpg",
+        "PromptMiner": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1546,8 +1546,8 @@
       "cherry_rank": 22,
       "original": "stimuli/MSCOCO_000000383842/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000383842/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000383842/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000383842/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000383842/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1563,10 +1563,10 @@
       "clip_i_promptminer": 0.8603799343109131,
       "clip_margin": 0.0765383243560791,
       "cherry_rank": 19,
-      "original": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/original.png",
+      "original": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/A.png",
-        "PROVE-new": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/B.png"
+        "PromptMiner": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/A.jpg",
+        "PROVE-new": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1584,8 +1584,8 @@
       "cherry_rank": 10,
       "original": "stimuli/MSCOCO_000000179487/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000179487/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000179487/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000179487/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000179487/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1601,10 +1601,10 @@
       "clip_i_promptminer": 0.8343842029571533,
       "clip_margin": 0.09159553050994873,
       "cherry_rank": 13,
-      "original": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/original.png",
+      "original": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/A.png",
-        "PromptMiner": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/B.png"
+        "PROVE-new": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/A.jpg",
+        "PromptMiner": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1620,10 +1620,10 @@
       "clip_i_promptminer": 0.6551728844642639,
       "clip_margin": 0.18699616193771362,
       "cherry_rank": 3,
-      "original": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/original.png",
+      "original": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/A.png",
-        "PROVE-new": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/B.png"
+        "PromptMiner": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/A.jpg",
+        "PROVE-new": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1639,10 +1639,10 @@
       "clip_i_promptminer": 0.9160799980163574,
       "clip_margin": 0.017135262489318848,
       "cherry_rank": 26,
-      "original": "stimuli/LEXICA_027/original.png",
+      "original": "stimuli/LEXICA_027/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_027/A.png",
-        "PROVE-new": "stimuli/LEXICA_027/B.png"
+        "PromptMiner": "stimuli/LEXICA_027/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_027/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1661,8 +1661,8 @@
       "cherry_rank": 8,
       "original": "stimuli/FLICKR_16062/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_16062/A.png",
-        "PROVE-new": "stimuli/FLICKR_16062/B.png"
+        "PromptMiner": "stimuli/FLICKR_16062/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_16062/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1678,10 +1678,10 @@
       "clip_i_promptminer": 0.5988717079162598,
       "clip_margin": 0.24977195262908936,
       "cherry_rank": 1,
-      "original": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/original.png",
+      "original": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/A.png",
-        "PROVE-new": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/B.png"
+        "PromptMiner": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/A.jpg",
+        "PROVE-new": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1699,8 +1699,8 @@
       "cherry_rank": 3,
       "original": "stimuli/MSCOCO_000000015338/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000015338/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000015338/B.png"
+        "PromptMiner": "stimuli/MSCOCO_000000015338/A.jpg",
+        "PROVE-new": "stimuli/MSCOCO_000000015338/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1716,10 +1716,10 @@
       "clip_i_promptminer": 0.7627912759780884,
       "clip_margin": 0.11689150333404541,
       "cherry_rank": 9,
-      "original": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/original.png",
+      "original": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/A.png",
-        "PromptMiner": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/B.png"
+        "PROVE-new": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/A.jpg",
+        "PromptMiner": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1737,8 +1737,8 @@
       "cherry_rank": 9,
       "original": "stimuli/FLICKR_15150/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/FLICKR_15150/A.png",
-        "PROVE-new": "stimuli/FLICKR_15150/B.png"
+        "PromptMiner": "stimuli/FLICKR_15150/A.jpg",
+        "PROVE-new": "stimuli/FLICKR_15150/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1754,10 +1754,10 @@
       "clip_i_promptminer": 0.8986936807632446,
       "clip_margin": 0.048742055892944336,
       "cherry_rank": 13,
-      "original": "stimuli/LEXICA_033/original.png",
+      "original": "stimuli/LEXICA_033/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_033/A.png",
-        "PROVE-new": "stimuli/LEXICA_033/B.png"
+        "PromptMiner": "stimuli/LEXICA_033/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_033/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1773,10 +1773,10 @@
       "clip_i_promptminer": 0.7838964462280273,
       "clip_margin": 0.08734208345413208,
       "cherry_rank": 14,
-      "original": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/original.png",
+      "original": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/A.png",
-        "PROVE-new": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/B.png"
+        "PromptMiner": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/A.jpg",
+        "PROVE-new": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1792,10 +1792,10 @@
       "clip_i_promptminer": 0.7938669919967651,
       "clip_margin": 0.13708746433258057,
       "cherry_rank": 5,
-      "original": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/original.png",
+      "original": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/A.png",
-        "PROVE-new": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/B.png"
+        "PromptMiner": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/A.jpg",
+        "PROVE-new": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1811,10 +1811,10 @@
       "clip_i_promptminer": 0.8627302050590515,
       "clip_margin": 0.09649330377578735,
       "cherry_rank": 12,
-      "original": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/original.png",
+      "original": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/A.png",
-        "PROVE-new": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/B.png"
+        "PromptMiner": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/A.jpg",
+        "PROVE-new": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1830,10 +1830,10 @@
       "clip_i_promptminer": 0.8534939289093018,
       "clip_margin": 0.0819021463394165,
       "cherry_rank": 17,
-      "original": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/original.png",
+      "original": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/A.png",
-        "PromptMiner": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/B.png"
+        "PROVE-new": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/A.jpg",
+        "PromptMiner": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1849,10 +1849,10 @@
       "clip_i_promptminer": 0.8561073541641235,
       "clip_margin": 0.08564978837966919,
       "cherry_rank": 3,
-      "original": "stimuli/LEXICA_021/original.png",
+      "original": "stimuli/LEXICA_021/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_021/A.png",
-        "PROVE-new": "stimuli/LEXICA_021/B.png"
+        "PromptMiner": "stimuli/LEXICA_021/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_021/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
@@ -1868,10 +1868,10 @@
       "clip_i_promptminer": 0.8839563131332397,
       "clip_margin": 0.029381752014160156,
       "cherry_rank": 17,
-      "original": "stimuli/LEXICA_083/original.png",
+      "original": "stimuli/LEXICA_083/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/LEXICA_083/A.png",
-        "PromptMiner": "stimuli/LEXICA_083/B.png"
+        "PROVE-new": "stimuli/LEXICA_083/A.jpg",
+        "PromptMiner": "stimuli/LEXICA_083/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1889,8 +1889,8 @@
       "cherry_rank": 13,
       "original": "stimuli/MSCOCO_000000323496/original.jpg",
       "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000323496/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000323496/B.png"
+        "PROVE-new": "stimuli/MSCOCO_000000323496/A.jpg",
+        "PromptMiner": "stimuli/MSCOCO_000000323496/B.jpg"
       },
       "slot_order": [
         "PROVE-new",
@@ -1906,10 +1906,10 @@
       "clip_i_promptminer": 0.929255485534668,
       "clip_margin": 0.0235213041305542,
       "cherry_rank": 19,
-      "original": "stimuli/LEXICA_066/original.png",
+      "original": "stimuli/LEXICA_066/original.jpg",
       "methods": {
-        "PromptMiner": "stimuli/LEXICA_066/A.png",
-        "PROVE-new": "stimuli/LEXICA_066/B.png"
+        "PromptMiner": "stimuli/LEXICA_066/A.jpg",
+        "PROVE-new": "stimuli/LEXICA_066/B.jpg"
       },
       "slot_order": [
         "PromptMiner",
