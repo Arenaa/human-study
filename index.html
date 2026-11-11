@@ -147,7 +147,7 @@ function downloadResults(payload){
 
 async function loadStudy(){
   // Bust caches after stimulus path changes.
-  const res = await fetch('study.json?v=20261111c', {cache: 'no-store'});
+  const res = await fetch('study.json?v=cef7f27', {cache: 'no-store'});
   if(!res.ok) throw new Error('study.json missing');
   STUDY = await res.json();
   $('instruction').textContent = STUDY.instruction || '';
@@ -164,7 +164,7 @@ function bindImg(img, src){
     fail.textContent = 'Image failed to load. Hard-refresh the page (Cmd/Ctrl+Shift+R).';
     img.parentElement.appendChild(fail);
   };
-  img.src = src + (src.includes('?') ? '&' : '?') + 'v=20261111c';
+  img.src = src + (src.includes('?') ? '&' : '?') + 'v=cef7f27';
 }
 
 function updateProgress(){
