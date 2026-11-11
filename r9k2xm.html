@@ -61,7 +61,7 @@ a.mail{color:var(--accent);font-weight:600}
   <section class="card" id="intro">
     <h1>Human preference evaluation</h1>
     <p id="instruction">Loading study…</p>
-    <p class="hint">There are <b>25</b> trials. This study is <b>anonymous</b>.</p>
+    <p class="hint">There are <b id="nTrials">—</b> trials. This study is <b>anonymous</b>.</p>
     <p class="hint">When you finish, a results file downloads automatically. Please email it to
       <a class="mail" href="mailto:mk2524@georgetown.edu">mk2524@georgetown.edu</a>.</p>
     <div class="row">
@@ -149,18 +149,19 @@ function downloadResults(payload){
 
 async function loadStudy(){
   document.title = 'Human preference study';
-  const res = await fetch(`${STUDY_FILE}?v=n25`, {cache: 'no-store'});
+  const res = await fetch(`${STUDY_FILE}?v=n25b`, {cache: 'no-store'});
   if(!res.ok) throw new Error('study data missing');
   STUDY = await res.json();
   // Do not show part/dataset metadata to participants.
   $('instruction').textContent = STUDY.instruction || '';
+  const nEl=$('nTrials'); if(nEl) nEl.textContent=String(STUDY.trials.length);
   $('startBtn').disabled = false;
   updateProgress();
 }
 
 function bindImg(img, src){
   img.alt = img.alt || '';
-  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=n25';
+  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=n25b';
   const alt = src.endsWith('.jpg') ? src.replace(/\.jpg$/i, '.png')
             : src.endsWith('.png') ? src.replace(/\.png$/i, '.jpg')
             : null;
