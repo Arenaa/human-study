@@ -102,7 +102,8 @@ a.mail{color:var(--accent);font-weight:600}
 </main>
 <script>
 let STUDY=null, idx=0, answers=[], slotOrders=[], choices=[], rater='', lastPayload=null;
-const PART = 4;
+const PART = 3;
+const STUDY_FILE = 'b8t3jz.json';
 const $ = id => document.getElementById(id);
 
 function newAnonId(){
@@ -148,7 +149,7 @@ function downloadResults(payload){
 
 async function loadStudy(){
   document.title = 'Human preference study';
-  const res = await fetch(`study_p${PART}.json?v=parts3`, {cache: 'no-store'});
+  const res = await fetch(`${STUDY_FILE}?v=hide1`, {cache: 'no-store'});
   if(!res.ok) throw new Error('study data missing');
   STUDY = await res.json();
   // Do not show part/dataset metadata to participants.
@@ -159,7 +160,7 @@ async function loadStudy(){
 
 function bindImg(img, src){
   img.alt = img.alt || '';
-  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=parts3';
+  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=hide1';
   const alt = src.endsWith('.jpg') ? src.replace(/\.jpg$/i, '.png')
             : src.endsWith('.png') ? src.replace(/\.png$/i, '.jpg')
             : null;
