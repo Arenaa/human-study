@@ -147,7 +147,7 @@ function downloadResults(payload){
 
 async function loadStudy(){
   // Bust caches after stimulus path changes.
-  const res = await fetch('study.json?v=cef7f27', {cache: 'no-store'});
+  const res = await fetch('study.json?v=e719cfb', {cache: 'no-store'});
   if(!res.ok) throw new Error('study.json missing');
   STUDY = await res.json();
   $('instruction').textContent = STUDY.instruction || '';
@@ -157,14 +157,26 @@ async function loadStudy(){
 
 function bindImg(img, src){
   img.alt = img.alt || '';
+  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=e719cfb';
+  const alt = src.endsWith('.jpg') ? src.replace(/\.jpg$/i, '.png')
+            : src.endsWith('.png') ? src.replace(/\.png$/i, '.jpg')
+            : null;
+  let triedAlt = false;
   img.onerror = () => {
+    if(alt && !triedAlt){
+      triedAlt = true;
+      img.src = bust(alt);
+      return;
+    }
     img.style.display = 'none';
-    const fail = document.createElement('div');
-    fail.className = 'fail';
-    fail.textContent = 'Image failed to load. Hard-refresh the page (Cmd/Ctrl+Shift+R).';
-    img.parentElement.appendChild(fail);
+    if(!img.parentElement.querySelector('.fail')){
+      const fail = document.createElement('div');
+      fail.className = 'fail';
+      fail.textContent = 'Image failed to load. Hard-refresh (Cmd/Ctrl+Shift+R).';
+      img.parentElement.appendChild(fail);
+    }
   };
-  img.src = src + (src.includes('?') ? '&' : '?') + 'v=cef7f27';
+  img.src = bust(src);
 }
 
 function updateProgress(){
