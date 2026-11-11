@@ -9,1300 +9,8 @@
   "selection": "prove_beats_promptminer_clip_margin",
   "n_per_dataset": 25,
   "n_trials": 100,
-  "instruction": "Compare two regenerations to the Original image. Choose which one matches the Original better (A or B). Left/right (A/B) are shuffled per trial.",
+  "instruction": "Compare two regenerations to the Original image. Choose which one matches the Original better (A or B).",
   "trials": [
-    {
-      "trial_id": "FLICKR_15044",
-      "dataset": "FLICKR",
-      "image_id": "15044",
-      "row_index": 4,
-      "clip_i_prove_new": 0.877051830291748,
-      "clip_i_promptminer": 0.7685308456420898,
-      "clip_margin": 0.1085209846496582,
-      "cherry_rank": 13,
-      "original": "stimuli/FLICKR_15044/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_15044/A.png",
-        "PromptMiner": "stimuli/FLICKR_15044/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000567197",
-      "dataset": "MSCOCO",
-      "image_id": "000000567197",
-      "row_index": 97,
-      "clip_i_prove_new": 0.8546327352523804,
-      "clip_i_promptminer": 0.6911113858222961,
-      "clip_margin": 0.16352134943008423,
-      "cherry_rank": 2,
-      "original": "stimuli/MSCOCO_000000567197/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000567197/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000567197/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_071",
-      "dataset": "LEXICA",
-      "image_id": "071",
-      "row_index": 71,
-      "clip_i_prove_new": 0.9100882411003113,
-      "clip_i_promptminer": 0.8871058225631714,
-      "clip_margin": 0.022982418537139893,
-      "cherry_rank": 21,
-      "original": "stimuli/LEXICA_071/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_071/A.png",
-        "PROVE-new": "stimuli/LEXICA_071/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16665",
-      "dataset": "FLICKR",
-      "image_id": "16665",
-      "row_index": 81,
-      "clip_i_prove_new": 0.7607378959655762,
-      "clip_i_promptminer": 0.6838539838790894,
-      "clip_margin": 0.07688391208648682,
-      "cherry_rank": 25,
-      "original": "stimuli/FLICKR_16665/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_16665/A.png",
-        "PromptMiner": "stimuli/FLICKR_16665/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16778",
-      "dataset": "FLICKR",
-      "image_id": "16778",
-      "row_index": 89,
-      "clip_i_prove_new": 0.9137705564498901,
-      "clip_i_promptminer": 0.820919394493103,
-      "clip_margin": 0.09285116195678711,
-      "cherry_rank": 18,
-      "original": "stimuli/FLICKR_16778/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16778/A.png",
-        "PROVE-new": "stimuli/FLICKR_16778/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e",
-      "dataset": "JD",
-      "image_id": "81b8dc8d-4893-4d22-a34b-d1d61d98680e",
-      "row_index": 49,
-      "clip_i_prove_new": 0.8712385296821594,
-      "clip_i_promptminer": 0.7838964462280273,
-      "clip_margin": 0.08734208345413208,
-      "cherry_rank": 14,
-      "original": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/A.png",
-        "PROVE-new": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000066135",
-      "dataset": "MSCOCO",
-      "image_id": "000000066135",
-      "row_index": 5,
-      "clip_i_prove_new": 0.8838378190994263,
-      "clip_i_promptminer": 0.8184254169464111,
-      "clip_margin": 0.06541240215301514,
-      "cherry_rank": 25,
-      "original": "stimuli/MSCOCO_000000066135/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000066135/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000066135/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000563349",
-      "dataset": "MSCOCO",
-      "image_id": "000000563349",
-      "row_index": 96,
-      "clip_i_prove_new": 0.8920793533325195,
-      "clip_i_promptminer": 0.798384964466095,
-      "clip_margin": 0.09369438886642456,
-      "cherry_rank": 15,
-      "original": "stimuli/MSCOCO_000000563349/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000563349/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000563349/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9",
-      "dataset": "JD",
-      "image_id": "3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9",
-      "row_index": 22,
-      "clip_i_prove_new": 0.9331212043762207,
-      "clip_i_promptminer": 0.8472909927368164,
-      "clip_margin": 0.0858302116394043,
-      "cherry_rank": 15,
-      "original": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/A.png",
-        "PROVE-new": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d",
-      "dataset": "JD",
-      "image_id": "4d6c0a84-232f-4d99-a3c9-2c7858112a8d",
-      "row_index": 28,
-      "clip_i_prove_new": 0.9309544563293457,
-      "clip_i_promptminer": 0.7938669919967651,
-      "clip_margin": 0.13708746433258057,
-      "cherry_rank": 5,
-      "original": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/A.png",
-        "PROVE-new": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_015",
-      "dataset": "LEXICA",
-      "image_id": "015",
-      "row_index": 15,
-      "clip_i_prove_new": 0.8585046529769897,
-      "clip_i_promptminer": 0.7935118675231934,
-      "clip_margin": 0.06499278545379639,
-      "cherry_rank": 6,
-      "original": "stimuli/LEXICA_015/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_015/A.png",
-        "PromptMiner": "stimuli/LEXICA_015/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_15656",
-      "dataset": "FLICKR",
-      "image_id": "15656",
-      "row_index": 28,
-      "clip_i_prove_new": 0.779786229133606,
-      "clip_i_promptminer": 0.7007203698158264,
-      "clip_margin": 0.07906585931777954,
-      "cherry_rank": 23,
-      "original": "stimuli/FLICKR_15656/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_15656/A.png",
-        "PromptMiner": "stimuli/FLICKR_15656/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000318138",
-      "dataset": "MSCOCO",
-      "image_id": "000000318138",
-      "row_index": 54,
-      "clip_i_prove_new": 0.6840190887451172,
-      "clip_i_promptminer": 0.5450576543807983,
-      "clip_margin": 0.13896143436431885,
-      "cherry_rank": 5,
-      "original": "stimuli/MSCOCO_000000318138/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000318138/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000318138/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_2260017f-0427-491f-823c-4d517d90a272",
-      "dataset": "JD",
-      "image_id": "2260017f-0427-491f-823c-4d517d90a272",
-      "row_index": 11,
-      "clip_i_prove_new": 0.87043297290802,
-      "clip_i_promptminer": 0.7979152798652649,
-      "clip_margin": 0.07251769304275513,
-      "cherry_rank": 23,
-      "original": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/A.png",
-        "PROVE-new": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_3a938a29-3b7f-44e3-b442-ddeb59a32517",
-      "dataset": "JD",
-      "image_id": "3a938a29-3b7f-44e3-b442-ddeb59a32517",
-      "row_index": 18,
-      "clip_i_prove_new": 0.9353960752487183,
-      "clip_i_promptminer": 0.8534939289093018,
-      "clip_margin": 0.0819021463394165,
-      "cherry_rank": 17,
-      "original": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/A.png",
-        "PromptMiner": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000060507",
-      "dataset": "MSCOCO",
-      "image_id": "000000060507",
-      "row_index": 4,
-      "clip_i_prove_new": 0.8293582201004028,
-      "clip_i_promptminer": 0.7117874026298523,
-      "clip_margin": 0.11757081747055054,
-      "cherry_rank": 8,
-      "original": "stimuli/MSCOCO_000000060507/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000060507/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000060507/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_097",
-      "dataset": "LEXICA",
-      "image_id": "097",
-      "row_index": 97,
-      "clip_i_prove_new": 0.8432323932647705,
-      "clip_i_promptminer": 0.8006370663642883,
-      "clip_margin": 0.04259532690048218,
-      "cherry_rank": 15,
-      "original": "stimuli/LEXICA_097/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_097/A.png",
-        "PromptMiner": "stimuli/LEXICA_097/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16300",
-      "dataset": "FLICKR",
-      "image_id": "16300",
-      "row_index": 63,
-      "clip_i_prove_new": 0.9049725532531738,
-      "clip_i_promptminer": 0.8246312141418457,
-      "clip_margin": 0.08034133911132812,
-      "cherry_rank": 21,
-      "original": "stimuli/FLICKR_16300/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16300/A.png",
-        "PROVE-new": "stimuli/FLICKR_16300/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000015338",
-      "dataset": "MSCOCO",
-      "image_id": "000000015338",
-      "row_index": 0,
-      "clip_i_prove_new": 0.8417462110519409,
-      "clip_i_promptminer": 0.6919823884963989,
-      "clip_margin": 0.149763822555542,
-      "cherry_rank": 3,
-      "original": "stimuli/MSCOCO_000000015338/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000015338/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000015338/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_022",
-      "dataset": "LEXICA",
-      "image_id": "022",
-      "row_index": 22,
-      "clip_i_prove_new": 0.9157307744026184,
-      "clip_i_promptminer": 0.8910455703735352,
-      "clip_margin": 0.024685204029083252,
-      "cherry_rank": 18,
-      "original": "stimuli/LEXICA_022/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_022/A.png",
-        "PromptMiner": "stimuli/LEXICA_022/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_56522fda-f85b-46b0-a5ca-6de83c192341",
-      "dataset": "JD",
-      "image_id": "56522fda-f85b-46b0-a5ca-6de83c192341",
-      "row_index": 31,
-      "clip_i_prove_new": 0.9437536001205444,
-      "clip_i_promptminer": 0.800003170967102,
-      "clip_margin": 0.14375042915344238,
-      "cherry_rank": 4,
-      "original": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/A.png",
-        "PromptMiner": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000091500",
-      "dataset": "MSCOCO",
-      "image_id": "000000091500",
-      "row_index": 12,
-      "clip_i_prove_new": 0.7143629193305969,
-      "clip_i_promptminer": 0.62995445728302,
-      "clip_margin": 0.0844084620475769,
-      "cherry_rank": 20,
-      "original": "stimuli/MSCOCO_000000091500/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000091500/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000091500/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000546823",
-      "dataset": "MSCOCO",
-      "image_id": "000000546823",
-      "row_index": 93,
-      "clip_i_prove_new": 0.7411645650863647,
-      "clip_i_promptminer": 0.6253219842910767,
-      "clip_margin": 0.11584258079528809,
-      "cherry_rank": 9,
-      "original": "stimuli/MSCOCO_000000546823/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000546823/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000546823/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb",
-      "dataset": "JD",
-      "image_id": "83fa93ef-f4df-4787-853c-dcd3a3fcb5fb",
-      "row_index": 51,
-      "clip_i_prove_new": 0.9592235088348389,
-      "clip_i_promptminer": 0.8627302050590515,
-      "clip_margin": 0.09649330377578735,
-      "cherry_rank": 12,
-      "original": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/A.png",
-        "PROVE-new": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16007",
-      "dataset": "FLICKR",
-      "image_id": "16007",
-      "row_index": 43,
-      "clip_i_prove_new": 0.8734961748123169,
-      "clip_i_promptminer": 0.6868705749511719,
-      "clip_margin": 0.18662559986114502,
-      "cherry_rank": 3,
-      "original": "stimuli/FLICKR_16007/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_16007/A.png",
-        "PromptMiner": "stimuli/FLICKR_16007/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_5f522f43-adce-43ba-a770-5943d18038b2",
-      "dataset": "JD",
-      "image_id": "5f522f43-adce-43ba-a770-5943d18038b2",
-      "row_index": 33,
-      "clip_i_prove_new": 0.9369182586669922,
-      "clip_i_promptminer": 0.8603799343109131,
-      "clip_margin": 0.0765383243560791,
-      "cherry_rank": 19,
-      "original": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/A.png",
-        "PROVE-new": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_057",
-      "dataset": "LEXICA",
-      "image_id": "057",
-      "row_index": 57,
-      "clip_i_prove_new": 0.8774548768997192,
-      "clip_i_promptminer": 0.7686618566513062,
-      "clip_margin": 0.10879302024841309,
-      "cherry_rank": 1,
-      "original": "stimuli/LEXICA_057/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_057/A.png",
-        "PROVE-new": "stimuli/LEXICA_057/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16631",
-      "dataset": "FLICKR",
-      "image_id": "16631",
-      "row_index": 80,
-      "clip_i_prove_new": 0.839016854763031,
-      "clip_i_promptminer": 0.6707151532173157,
-      "clip_margin": 0.16830170154571533,
-      "cherry_rank": 4,
-      "original": "stimuli/FLICKR_16631/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16631/A.png",
-        "PROVE-new": "stimuli/FLICKR_16631/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000421455",
-      "dataset": "MSCOCO",
-      "image_id": "000000421455",
-      "row_index": 78,
-      "clip_i_prove_new": 0.7196182608604431,
-      "clip_i_promptminer": 0.6335489153862,
-      "clip_margin": 0.08606934547424316,
-      "cherry_rank": 19,
-      "original": "stimuli/MSCOCO_000000421455/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000421455/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000421455/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_e7f23008-8437-4f17-8a40-6a1b4655172f",
-      "dataset": "JD",
-      "image_id": "e7f23008-8437-4f17-8a40-6a1b4655172f",
-      "row_index": 92,
-      "clip_i_prove_new": 0.9520188570022583,
-      "clip_i_promptminer": 0.8776770830154419,
-      "clip_margin": 0.0743417739868164,
-      "cherry_rank": 21,
-      "original": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/A.png",
-        "PromptMiner": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16693",
-      "dataset": "FLICKR",
-      "image_id": "16693",
-      "row_index": 84,
-      "clip_i_prove_new": 0.8427245020866394,
-      "clip_i_promptminer": 0.7394843101501465,
-      "clip_margin": 0.10324019193649292,
-      "cherry_rank": 14,
-      "original": "stimuli/FLICKR_16693/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_16693/A.png",
-        "PromptMiner": "stimuli/FLICKR_16693/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_030",
-      "dataset": "LEXICA",
-      "image_id": "030",
-      "row_index": 30,
-      "clip_i_prove_new": 0.9482632279396057,
-      "clip_i_promptminer": 0.9286376237869263,
-      "clip_margin": 0.019625604152679443,
-      "cherry_rank": 22,
-      "original": "stimuli/LEXICA_030/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_030/A.png",
-        "PromptMiner": "stimuli/LEXICA_030/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_038",
-      "dataset": "LEXICA",
-      "image_id": "038",
-      "row_index": 38,
-      "clip_i_prove_new": 0.9657139182090759,
-      "clip_i_promptminer": 0.9426072835922241,
-      "clip_margin": 0.023106634616851807,
-      "cherry_rank": 20,
-      "original": "stimuli/LEXICA_038/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_038/A.png",
-        "PromptMiner": "stimuli/LEXICA_038/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_060",
-      "dataset": "LEXICA",
-      "image_id": "060",
-      "row_index": 60,
-      "clip_i_prove_new": 0.9198809862136841,
-      "clip_i_promptminer": 0.8610506653785706,
-      "clip_margin": 0.058830320835113525,
-      "cherry_rank": 10,
-      "original": "stimuli/LEXICA_060/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_060/A.png",
-        "PROVE-new": "stimuli/LEXICA_060/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_1e12e81a-26bf-46ca-8c77-288f1be2179d",
-      "dataset": "JD",
-      "image_id": "1e12e81a-26bf-46ca-8c77-288f1be2179d",
-      "row_index": 10,
-      "clip_i_prove_new": 0.8796827793121338,
-      "clip_i_promptminer": 0.7627912759780884,
-      "clip_margin": 0.11689150333404541,
-      "cherry_rank": 9,
-      "original": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/A.png",
-        "PromptMiner": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000173091",
-      "dataset": "MSCOCO",
-      "image_id": "000000173091",
-      "row_index": 32,
-      "clip_i_prove_new": 0.7316288948059082,
-      "clip_i_promptminer": 0.608181357383728,
-      "clip_margin": 0.12344753742218018,
-      "cherry_rank": 7,
-      "original": "stimuli/MSCOCO_000000173091/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000173091/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000173091/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb",
-      "dataset": "JD",
-      "image_id": "888bfb03-792e-4d25-98ba-5e0d4bf0ebfb",
-      "row_index": 55,
-      "clip_i_prove_new": 0.925979733467102,
-      "clip_i_promptminer": 0.8343842029571533,
-      "clip_margin": 0.09159553050994873,
-      "cherry_rank": 13,
-      "original": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/A.png",
-        "PromptMiner": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000485844",
-      "dataset": "MSCOCO",
-      "image_id": "000000485844",
-      "row_index": 84,
-      "clip_i_prove_new": 0.7422571778297424,
-      "clip_i_promptminer": 0.6498274803161621,
-      "clip_margin": 0.09242969751358032,
-      "cherry_rank": 16,
-      "original": "stimuli/MSCOCO_000000485844/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000485844/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000485844/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_11ec1e15-8698-449f-9738-c34120354c30",
-      "dataset": "JD",
-      "image_id": "11ec1e15-8698-449f-9738-c34120354c30",
-      "row_index": 4,
-      "clip_i_prove_new": 0.8486436605453491,
-      "clip_i_promptminer": 0.5988717079162598,
-      "clip_margin": 0.24977195262908936,
-      "cherry_rank": 1,
-      "original": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/A.png",
-        "PROVE-new": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_1b0de8c3-edbc-4158-8883-24f1954ee000",
-      "dataset": "JD",
-      "image_id": "1b0de8c3-edbc-4158-8883-24f1954ee000",
-      "row_index": 8,
-      "clip_i_prove_new": 0.9488705396652222,
-      "clip_i_promptminer": 0.8773903846740723,
-      "clip_margin": 0.0714801549911499,
-      "cherry_rank": 25,
-      "original": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/A.png",
-        "PROVE-new": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16680",
-      "dataset": "FLICKR",
-      "image_id": "16680",
-      "row_index": 82,
-      "clip_i_prove_new": 0.8049594759941101,
-      "clip_i_promptminer": 0.7249791026115417,
-      "clip_margin": 0.07998037338256836,
-      "cherry_rank": 22,
-      "original": "stimuli/FLICKR_16680/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16680/A.png",
-        "PROVE-new": "stimuli/FLICKR_16680/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000073153",
-      "dataset": "MSCOCO",
-      "image_id": "000000073153",
-      "row_index": 8,
-      "clip_i_prove_new": 0.8712415099143982,
-      "clip_i_promptminer": 0.7741252183914185,
-      "clip_margin": 0.09711629152297974,
-      "cherry_rank": 14,
-      "original": "stimuli/MSCOCO_000000073153/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000073153/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000073153/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000323496",
-      "dataset": "MSCOCO",
-      "image_id": "000000323496",
-      "row_index": 56,
-      "clip_i_prove_new": 0.8840881586074829,
-      "clip_i_promptminer": 0.7838308811187744,
-      "clip_margin": 0.1002572774887085,
-      "cherry_rank": 13,
-      "original": "stimuli/MSCOCO_000000323496/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000323496/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000323496/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16528",
-      "dataset": "FLICKR",
-      "image_id": "16528",
-      "row_index": 76,
-      "clip_i_prove_new": 0.7691707611083984,
-      "clip_i_promptminer": 0.6845847368240356,
-      "clip_margin": 0.08458602428436279,
-      "cherry_rank": 19,
-      "original": "stimuli/FLICKR_16528/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_16528/A.png",
-        "PromptMiner": "stimuli/FLICKR_16528/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_090",
-      "dataset": "LEXICA",
-      "image_id": "090",
-      "row_index": 90,
-      "clip_i_prove_new": 0.9323384761810303,
-      "clip_i_promptminer": 0.872908890247345,
-      "clip_margin": 0.0594295859336853,
-      "cherry_rank": 9,
-      "original": "stimuli/LEXICA_090/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_090/A.png",
-        "PROVE-new": "stimuli/LEXICA_090/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000017714",
-      "dataset": "MSCOCO",
-      "image_id": "000000017714",
-      "row_index": 1,
-      "clip_i_prove_new": 0.8524547815322876,
-      "clip_i_promptminer": 0.745266318321228,
-      "clip_margin": 0.10718846321105957,
-      "cherry_rank": 11,
-      "original": "stimuli/MSCOCO_000000017714/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000017714/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000017714/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_086",
-      "dataset": "LEXICA",
-      "image_id": "086",
-      "row_index": 86,
-      "clip_i_prove_new": 0.921991765499115,
-      "clip_i_promptminer": 0.8780337572097778,
-      "clip_margin": 0.04395800828933716,
-      "cherry_rank": 14,
-      "original": "stimuli/LEXICA_086/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_086/A.png",
-        "PROVE-new": "stimuli/LEXICA_086/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_029",
-      "dataset": "LEXICA",
-      "image_id": "029",
-      "row_index": 29,
-      "clip_i_prove_new": 0.9222859144210815,
-      "clip_i_promptminer": 0.872982382774353,
-      "clip_margin": 0.049303531646728516,
-      "cherry_rank": 12,
-      "original": "stimuli/LEXICA_029/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_029/A.png",
-        "PromptMiner": "stimuli/LEXICA_029/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16062",
-      "dataset": "FLICKR",
-      "image_id": "16062",
-      "row_index": 48,
-      "clip_i_prove_new": 0.8276559710502625,
-      "clip_i_promptminer": 0.699390172958374,
-      "clip_margin": 0.12826579809188843,
-      "cherry_rank": 8,
-      "original": "stimuli/FLICKR_16062/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16062/A.png",
-        "PROVE-new": "stimuli/FLICKR_16062/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_005",
-      "dataset": "LEXICA",
-      "image_id": "005",
-      "row_index": 5,
-      "clip_i_prove_new": 0.8397100567817688,
-      "clip_i_promptminer": 0.7660759091377258,
-      "clip_margin": 0.07363414764404297,
-      "cherry_rank": 5,
-      "original": "stimuli/LEXICA_005/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_005/A.png",
-        "PromptMiner": "stimuli/LEXICA_005/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_f5717ff2-99f5-4014-b3a2-2ac5373e9145",
-      "dataset": "JD",
-      "image_id": "f5717ff2-99f5-4014-b3a2-2ac5373e9145",
-      "row_index": 98,
-      "clip_i_prove_new": 0.8668238520622253,
-      "clip_i_promptminer": 0.7647768259048462,
-      "clip_margin": 0.10204702615737915,
-      "cherry_rank": 11,
-      "original": "stimuli/JD_f5717ff2-99f5-4014-b3a2-2ac5373e9145/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_f5717ff2-99f5-4014-b3a2-2ac5373e9145/A.png",
-        "PromptMiner": "stimuli/JD_f5717ff2-99f5-4014-b3a2-2ac5373e9145/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000231879",
-      "dataset": "MSCOCO",
-      "image_id": "000000231879",
-      "row_index": 44,
-      "clip_i_prove_new": 0.7345548272132874,
-      "clip_i_promptminer": 0.6027665138244629,
-      "clip_margin": 0.13178831338882446,
-      "cherry_rank": 6,
-      "original": "stimuli/MSCOCO_000000231879/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000231879/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000231879/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_010",
-      "dataset": "LEXICA",
-      "image_id": "010",
-      "row_index": 10,
-      "clip_i_prove_new": 0.8160995244979858,
-      "clip_i_promptminer": 0.7606310844421387,
-      "clip_margin": 0.05546844005584717,
-      "cherry_rank": 11,
-      "original": "stimuli/LEXICA_010/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_010/A.png",
-        "PROVE-new": "stimuli/LEXICA_010/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_018",
-      "dataset": "LEXICA",
-      "image_id": "018",
-      "row_index": 18,
-      "clip_i_prove_new": 0.8257613182067871,
-      "clip_i_promptminer": 0.7465944290161133,
-      "clip_margin": 0.07916688919067383,
-      "cherry_rank": 4,
-      "original": "stimuli/LEXICA_018/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_018/A.png",
-        "PromptMiner": "stimuli/LEXICA_018/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16246",
-      "dataset": "FLICKR",
-      "image_id": "16246",
-      "row_index": 58,
-      "clip_i_prove_new": 0.8498178720474243,
-      "clip_i_promptminer": 0.7486347556114197,
-      "clip_margin": 0.10118311643600464,
-      "cherry_rank": 15,
-      "original": "stimuli/FLICKR_16246/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_16246/A.png",
-        "PromptMiner": "stimuli/FLICKR_16246/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_7e52266f-1caf-4af6-9112-55925b5abbf7",
-      "dataset": "JD",
-      "image_id": "7e52266f-1caf-4af6-9112-55925b5abbf7",
-      "row_index": 47,
-      "clip_i_prove_new": 0.9373133778572083,
-      "clip_i_promptminer": 0.8046042919158936,
-      "clip_margin": 0.1327090859413147,
-      "cherry_rank": 7,
-      "original": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/A.png",
-        "PROVE-new": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_044",
-      "dataset": "LEXICA",
-      "image_id": "044",
-      "row_index": 44,
-      "clip_i_prove_new": 0.8888764381408691,
-      "clip_i_promptminer": 0.8701448440551758,
-      "clip_margin": 0.01873159408569336,
-      "cherry_rank": 24,
-      "original": "stimuli/LEXICA_044/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_044/A.png",
-        "PromptMiner": "stimuli/LEXICA_044/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_017",
-      "dataset": "LEXICA",
-      "image_id": "017",
-      "row_index": 17,
-      "clip_i_prove_new": 0.892378568649292,
-      "clip_i_promptminer": 0.8506170511245728,
-      "clip_margin": 0.04176151752471924,
-      "cherry_rank": 16,
-      "original": "stimuli/LEXICA_017/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_017/A.png",
-        "PROVE-new": "stimuli/LEXICA_017/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_15081",
-      "dataset": "FLICKR",
-      "image_id": "15081",
-      "row_index": 7,
-      "clip_i_prove_new": 0.8386362791061401,
-      "clip_i_promptminer": 0.6922453045845032,
-      "clip_margin": 0.14639097452163696,
-      "cherry_rank": 5,
-      "original": "stimuli/FLICKR_15081/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_15081/A.png",
-        "PromptMiner": "stimuli/FLICKR_15081/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16273",
-      "dataset": "FLICKR",
-      "image_id": "16273",
-      "row_index": 60,
-      "clip_i_prove_new": 0.8959678411483765,
-      "clip_i_promptminer": 0.7573810815811157,
-      "clip_margin": 0.13858675956726074,
-      "cherry_rank": 7,
-      "original": "stimuli/FLICKR_16273/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_16273/A.png",
-        "PromptMiner": "stimuli/FLICKR_16273/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16439",
-      "dataset": "FLICKR",
-      "image_id": "16439",
-      "row_index": 71,
-      "clip_i_prove_new": 0.7662686109542847,
-      "clip_i_promptminer": 0.6668655276298523,
-      "clip_margin": 0.09940308332443237,
-      "cherry_rank": 17,
-      "original": "stimuli/FLICKR_16439/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16439/A.png",
-        "PROVE-new": "stimuli/FLICKR_16439/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_066",
-      "dataset": "LEXICA",
-      "image_id": "066",
-      "row_index": 66,
-      "clip_i_prove_new": 0.9527767896652222,
-      "clip_i_promptminer": 0.929255485534668,
-      "clip_margin": 0.0235213041305542,
-      "cherry_rank": 19,
-      "original": "stimuli/LEXICA_066/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_066/A.png",
-        "PROVE-new": "stimuli/LEXICA_066/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_15921",
-      "dataset": "FLICKR",
-      "image_id": "15921",
-      "row_index": 40,
-      "clip_i_prove_new": 0.791788637638092,
-      "clip_i_promptminer": 0.6774622201919556,
-      "clip_margin": 0.11432641744613647,
-      "cherry_rank": 12,
-      "original": "stimuli/FLICKR_15921/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_15921/A.png",
-        "PromptMiner": "stimuli/FLICKR_15921/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_033",
-      "dataset": "LEXICA",
-      "image_id": "033",
-      "row_index": 33,
-      "clip_i_prove_new": 0.947435736656189,
-      "clip_i_promptminer": 0.8986936807632446,
-      "clip_margin": 0.048742055892944336,
-      "cherry_rank": 13,
-      "original": "stimuli/LEXICA_033/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_033/A.png",
-        "PROVE-new": "stimuli/LEXICA_033/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_051",
-      "dataset": "LEXICA",
-      "image_id": "051",
-      "row_index": 51,
-      "clip_i_prove_new": 0.8544982671737671,
-      "clip_i_promptminer": 0.7477208375930786,
-      "clip_margin": 0.10677742958068848,
-      "cherry_rank": 2,
-      "original": "stimuli/LEXICA_051/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_051/A.png",
-        "PromptMiner": "stimuli/LEXICA_051/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_15150",
-      "dataset": "FLICKR",
-      "image_id": "15150",
-      "row_index": 10,
-      "clip_i_prove_new": 0.8559446334838867,
-      "clip_i_promptminer": 0.7310647964477539,
-      "clip_margin": 0.12487983703613281,
-      "cherry_rank": 9,
-      "original": "stimuli/FLICKR_15150/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_15150/A.png",
-        "PROVE-new": "stimuli/FLICKR_15150/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000154431",
-      "dataset": "MSCOCO",
-      "image_id": "000000154431",
-      "row_index": 26,
-      "clip_i_prove_new": 0.8558083176612854,
-      "clip_i_promptminer": 0.664874255657196,
-      "clip_margin": 0.19093406200408936,
-      "cherry_rank": 1,
-      "original": "stimuli/MSCOCO_000000154431/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000154431/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000154431/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_15270",
-      "dataset": "FLICKR",
-      "image_id": "15270",
-      "row_index": 15,
-      "clip_i_prove_new": 0.7800493240356445,
-      "clip_i_promptminer": 0.6650676727294922,
-      "clip_margin": 0.11498165130615234,
-      "cherry_rank": 11,
-      "original": "stimuli/FLICKR_15270/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_15270/A.png",
-        "PromptMiner": "stimuli/FLICKR_15270/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
     {
       "trial_id": "MSCOCO_000000055150",
       "dataset": "MSCOCO",
@@ -1316,82 +24,6 @@
       "methods": {
         "PromptMiner": "stimuli/MSCOCO_000000055150/A.png",
         "PROVE-new": "stimuli/MSCOCO_000000055150/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000082085",
-      "dataset": "MSCOCO",
-      "image_id": "000000082085",
-      "row_index": 10,
-      "clip_i_prove_new": 0.8058817386627197,
-      "clip_i_promptminer": 0.714942455291748,
-      "clip_margin": 0.09093928337097168,
-      "cherry_rank": 17,
-      "original": "stimuli/MSCOCO_000000082085/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000082085/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000082085/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16294",
-      "dataset": "FLICKR",
-      "image_id": "16294",
-      "row_index": 61,
-      "clip_i_prove_new": 0.7814271450042725,
-      "clip_i_promptminer": 0.6804056763648987,
-      "clip_margin": 0.10102146863937378,
-      "cherry_rank": 16,
-      "original": "stimuli/FLICKR_16294/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16294/A.png",
-        "PROVE-new": "stimuli/FLICKR_16294/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000111207",
-      "dataset": "MSCOCO",
-      "image_id": "000000111207",
-      "row_index": 18,
-      "clip_i_prove_new": 0.8329365253448486,
-      "clip_i_promptminer": 0.7486156225204468,
-      "clip_margin": 0.08432090282440186,
-      "cherry_rank": 21,
-      "original": "stimuli/MSCOCO_000000111207/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000111207/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000111207/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_035",
-      "dataset": "LEXICA",
-      "image_id": "035",
-      "row_index": 35,
-      "clip_i_prove_new": 0.9464864730834961,
-      "clip_i_promptminer": 0.9288570284843445,
-      "clip_margin": 0.01762944459915161,
-      "cherry_rank": 25,
-      "original": "stimuli/LEXICA_035/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_035/A.png",
-        "PROVE-new": "stimuli/LEXICA_035/B.png"
       },
       "slot_order": [
         "PromptMiner",
@@ -1418,436 +50,18 @@
       ]
     },
     {
-      "trial_id": "FLICKR_16529",
-      "dataset": "FLICKR",
-      "image_id": "16529",
-      "row_index": 77,
-      "clip_i_prove_new": 0.848092794418335,
-      "clip_i_promptminer": 0.6411689519882202,
-      "clip_margin": 0.20692384243011475,
-      "cherry_rank": 2,
-      "original": "stimuli/FLICKR_16529/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16529/A.png",
-        "PROVE-new": "stimuli/FLICKR_16529/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000179487",
-      "dataset": "MSCOCO",
-      "image_id": "000000179487",
-      "row_index": 35,
-      "clip_i_prove_new": 0.8825908899307251,
-      "clip_i_promptminer": 0.7690854668617249,
-      "clip_margin": 0.11350542306900024,
-      "cherry_rank": 10,
-      "original": "stimuli/MSCOCO_000000179487/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/MSCOCO_000000179487/A.png",
-        "PromptMiner": "stimuli/MSCOCO_000000179487/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16213",
-      "dataset": "FLICKR",
-      "image_id": "16213",
-      "row_index": 56,
-      "clip_i_prove_new": 0.6928096413612366,
-      "clip_i_promptminer": 0.5742923021316528,
-      "clip_margin": 0.11851733922958374,
-      "cherry_rank": 10,
-      "original": "stimuli/FLICKR_16213/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16213/A.png",
-        "PROVE-new": "stimuli/FLICKR_16213/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000382111",
-      "dataset": "MSCOCO",
-      "image_id": "000000382111",
-      "row_index": 67,
-      "clip_i_prove_new": 0.8121435046195984,
-      "clip_i_promptminer": 0.7116656303405762,
-      "clip_margin": 0.10047787427902222,
-      "cherry_rank": 12,
-      "original": "stimuli/MSCOCO_000000382111/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000382111/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000382111/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_021",
-      "dataset": "LEXICA",
-      "image_id": "021",
-      "row_index": 21,
-      "clip_i_prove_new": 0.9417571425437927,
-      "clip_i_promptminer": 0.8561073541641235,
-      "clip_margin": 0.08564978837966919,
-      "cherry_rank": 3,
-      "original": "stimuli/LEXICA_021/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_021/A.png",
-        "PROVE-new": "stimuli/LEXICA_021/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620",
+      "trial_id": "JD_1b0de8c3-edbc-4158-8883-24f1954ee000",
       "dataset": "JD",
-      "image_id": "0e2d92f1-1efa-4a5d-8603-5b493c60b620",
-      "row_index": 3,
-      "clip_i_prove_new": 0.9319021105766296,
-      "clip_i_promptminer": 0.8528671860694885,
-      "clip_margin": 0.07903492450714111,
-      "cherry_rank": 18,
-      "original": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/original.png",
+      "image_id": "1b0de8c3-edbc-4158-8883-24f1954ee000",
+      "row_index": 8,
+      "clip_i_prove_new": 0.9488705396652222,
+      "clip_i_promptminer": 0.8773903846740723,
+      "clip_margin": 0.0714801549911499,
+      "cherry_rank": 25,
+      "original": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/original.png",
       "methods": {
-        "PROVE-new": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/A.png",
-        "PromptMiner": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16609",
-      "dataset": "FLICKR",
-      "image_id": "16609",
-      "row_index": 78,
-      "clip_i_prove_new": 0.7950466275215149,
-      "clip_i_promptminer": 0.714018702507019,
-      "clip_margin": 0.08102792501449585,
-      "cherry_rank": 20,
-      "original": "stimuli/FLICKR_16609/original.jpg",
-      "methods": {
-        "PROVE-new": "stimuli/FLICKR_16609/A.png",
-        "PromptMiner": "stimuli/FLICKR_16609/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_6404a212-78f8-4bdb-b626-a0322119082b",
-      "dataset": "JD",
-      "image_id": "6404a212-78f8-4bdb-b626-a0322119082b",
-      "row_index": 35,
-      "clip_i_prove_new": 0.8717181086540222,
-      "clip_i_promptminer": 0.7352550029754639,
-      "clip_margin": 0.13646310567855835,
-      "cherry_rank": 6,
-      "original": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/A.png",
-        "PromptMiner": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_ac2c0585-8b82-49b2-a512-6731c910a8af",
-      "dataset": "JD",
-      "image_id": "ac2c0585-8b82-49b2-a512-6731c910a8af",
-      "row_index": 64,
-      "clip_i_prove_new": 0.8421690464019775,
-      "clip_i_promptminer": 0.6551728844642639,
-      "clip_margin": 0.18699616193771362,
-      "cherry_rank": 3,
-      "original": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/A.png",
-        "PROVE-new": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_6276a2cb-2855-4b27-918a-444cea578815",
-      "dataset": "JD",
-      "image_id": "6276a2cb-2855-4b27-918a-444cea578815",
-      "row_index": 34,
-      "clip_i_prove_new": 0.8739218711853027,
-      "clip_i_promptminer": 0.8005386590957642,
-      "clip_margin": 0.07338321208953857,
-      "cherry_rank": 22,
-      "original": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/A.png",
-        "PROVE-new": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000531135",
-      "dataset": "MSCOCO",
-      "image_id": "000000531135",
-      "row_index": 89,
-      "clip_i_prove_new": 0.7461801171302795,
-      "clip_i_promptminer": 0.5992675423622131,
-      "clip_margin": 0.1469125747680664,
-      "cherry_rank": 4,
-      "original": "stimuli/MSCOCO_000000531135/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000531135/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000531135/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6",
-      "dataset": "JD",
-      "image_id": "c8c6d99d-5b0d-4599-9830-cc0eebd995a6",
-      "row_index": 78,
-      "clip_i_prove_new": 0.9380519390106201,
-      "clip_i_promptminer": 0.8344440460205078,
-      "clip_margin": 0.1036078929901123,
-      "cherry_rank": 10,
-      "original": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/A.png",
-        "PromptMiner": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_bc460b39-83db-46cb-aca3-26bbbeaba66e",
-      "dataset": "JD",
-      "image_id": "bc460b39-83db-46cb-aca3-26bbbeaba66e",
-      "row_index": 73,
-      "clip_i_prove_new": 0.8324952721595764,
-      "clip_i_promptminer": 0.6255390644073486,
-      "clip_margin": 0.20695620775222778,
-      "cherry_rank": 2,
-      "original": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/A.png",
-        "PromptMiner": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_083",
-      "dataset": "LEXICA",
-      "image_id": "083",
-      "row_index": 83,
-      "clip_i_prove_new": 0.9133380651473999,
-      "clip_i_promptminer": 0.8839563131332397,
-      "clip_margin": 0.029381752014160156,
-      "cherry_rank": 17,
-      "original": "stimuli/LEXICA_083/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_083/A.png",
-        "PromptMiner": "stimuli/LEXICA_083/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_15248",
-      "dataset": "FLICKR",
-      "image_id": "15248",
-      "row_index": 14,
-      "clip_i_prove_new": 0.8301926255226135,
-      "clip_i_promptminer": 0.6861716508865356,
-      "clip_margin": 0.14402097463607788,
-      "cherry_rank": 6,
-      "original": "stimuli/FLICKR_15248/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_15248/A.png",
-        "PROVE-new": "stimuli/FLICKR_15248/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_052",
-      "dataset": "LEXICA",
-      "image_id": "052",
-      "row_index": 52,
-      "clip_i_prove_new": 0.8780725002288818,
-      "clip_i_promptminer": 0.8183397054672241,
-      "clip_margin": 0.059732794761657715,
-      "cherry_rank": 8,
-      "original": "stimuli/LEXICA_052/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/LEXICA_052/A.png",
-        "PromptMiner": "stimuli/LEXICA_052/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f",
-      "dataset": "JD",
-      "image_id": "7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f",
-      "row_index": 46,
-      "clip_i_prove_new": 0.9476460814476013,
-      "clip_i_promptminer": 0.8752844333648682,
-      "clip_margin": 0.07236164808273315,
-      "cherry_rank": 24,
-      "original": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/A.png",
-        "PROVE-new": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_4c6936db-9819-4896-8f94-a76573c3dd17",
-      "dataset": "JD",
-      "image_id": "4c6936db-9819-4896-8f94-a76573c3dd17",
-      "row_index": 27,
-      "clip_i_prove_new": 0.9449508190155029,
-      "clip_i_promptminer": 0.8212220072746277,
-      "clip_margin": 0.12372881174087524,
-      "cherry_rank": 8,
-      "original": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/original.png",
-      "methods": {
-        "PROVE-new": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/A.png",
-        "PromptMiner": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/B.png"
-      },
-      "slot_order": [
-        "PROVE-new",
-        "PromptMiner"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_050",
-      "dataset": "LEXICA",
-      "image_id": "050",
-      "row_index": 50,
-      "clip_i_prove_new": 0.86421799659729,
-      "clip_i_promptminer": 0.8016993999481201,
-      "clip_margin": 0.06251859664916992,
-      "cherry_rank": 7,
-      "original": "stimuli/LEXICA_050/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_050/A.png",
-        "PROVE-new": "stimuli/LEXICA_050/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "MSCOCO_000000343937",
-      "dataset": "MSCOCO",
-      "image_id": "000000343937",
-      "row_index": 60,
-      "clip_i_prove_new": 0.8091936111450195,
-      "clip_i_promptminer": 0.7395622134208679,
-      "clip_margin": 0.06963139772415161,
-      "cherry_rank": 24,
-      "original": "stimuli/MSCOCO_000000343937/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000343937/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000343937/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "LEXICA_079",
-      "dataset": "LEXICA",
-      "image_id": "079",
-      "row_index": 79,
-      "clip_i_prove_new": 0.9795517921447754,
-      "clip_i_promptminer": 0.96012282371521,
-      "clip_margin": 0.01942896842956543,
-      "cherry_rank": 23,
-      "original": "stimuli/LEXICA_079/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/LEXICA_079/A.png",
-        "PROVE-new": "stimuli/LEXICA_079/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "JD_864de8ed-a165-4b18-8834-a7083d3fee4f",
-      "dataset": "JD",
-      "image_id": "864de8ed-a165-4b18-8834-a7083d3fee4f",
-      "row_index": 53,
-      "clip_i_prove_new": 0.9485482573509216,
-      "clip_i_promptminer": 0.8728803396224976,
-      "clip_margin": 0.07566791772842407,
-      "cherry_rank": 20,
-      "original": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/original.png",
-      "methods": {
-        "PromptMiner": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/A.png",
-        "PROVE-new": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/B.png"
-      },
-      "slot_order": [
-        "PromptMiner",
-        "PROVE-new"
-      ]
-    },
-    {
-      "trial_id": "FLICKR_16376",
-      "dataset": "FLICKR",
-      "image_id": "16376",
-      "row_index": 67,
-      "clip_i_prove_new": 0.7628297209739685,
-      "clip_i_promptminer": 0.5197319388389587,
-      "clip_margin": 0.24309778213500977,
-      "cherry_rank": 1,
-      "original": "stimuli/FLICKR_16376/original.jpg",
-      "methods": {
-        "PromptMiner": "stimuli/FLICKR_16376/A.png",
-        "PROVE-new": "stimuli/FLICKR_16376/B.png"
+        "PromptMiner": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/A.png",
+        "PROVE-new": "stimuli/JD_1b0de8c3-edbc-4158-8883-24f1954ee000/B.png"
       },
       "slot_order": [
         "PromptMiner",
@@ -1874,22 +88,326 @@
       ]
     },
     {
-      "trial_id": "MSCOCO_000000383842",
-      "dataset": "MSCOCO",
-      "image_id": "000000383842",
-      "row_index": 69,
-      "clip_i_prove_new": 0.679151713848114,
-      "clip_i_promptminer": 0.6069831252098083,
-      "clip_margin": 0.07216858863830566,
-      "cherry_rank": 22,
-      "original": "stimuli/MSCOCO_000000383842/original.jpg",
+      "trial_id": "JD_864de8ed-a165-4b18-8834-a7083d3fee4f",
+      "dataset": "JD",
+      "image_id": "864de8ed-a165-4b18-8834-a7083d3fee4f",
+      "row_index": 53,
+      "clip_i_prove_new": 0.9485482573509216,
+      "clip_i_promptminer": 0.8728803396224976,
+      "clip_margin": 0.07566791772842407,
+      "cherry_rank": 20,
+      "original": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/original.png",
       "methods": {
-        "PromptMiner": "stimuli/MSCOCO_000000383842/A.png",
-        "PROVE-new": "stimuli/MSCOCO_000000383842/B.png"
+        "PromptMiner": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/A.png",
+        "PROVE-new": "stimuli/JD_864de8ed-a165-4b18-8834-a7083d3fee4f/B.png"
       },
       "slot_order": [
         "PromptMiner",
         "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16439",
+      "dataset": "FLICKR",
+      "image_id": "16439",
+      "row_index": 71,
+      "clip_i_prove_new": 0.7662686109542847,
+      "clip_i_promptminer": 0.6668655276298523,
+      "clip_margin": 0.09940308332443237,
+      "cherry_rank": 17,
+      "original": "stimuli/FLICKR_16439/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16439/A.png",
+        "PROVE-new": "stimuli/FLICKR_16439/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16665",
+      "dataset": "FLICKR",
+      "image_id": "16665",
+      "row_index": 81,
+      "clip_i_prove_new": 0.7607378959655762,
+      "clip_i_promptminer": 0.6838539838790894,
+      "clip_margin": 0.07688391208648682,
+      "cherry_rank": 25,
+      "original": "stimuli/FLICKR_16665/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_16665/A.png",
+        "PromptMiner": "stimuli/FLICKR_16665/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000073153",
+      "dataset": "MSCOCO",
+      "image_id": "000000073153",
+      "row_index": 8,
+      "clip_i_prove_new": 0.8712415099143982,
+      "clip_i_promptminer": 0.7741252183914185,
+      "clip_margin": 0.09711629152297974,
+      "cherry_rank": 14,
+      "original": "stimuli/MSCOCO_000000073153/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000073153/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000073153/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "JD_4c6936db-9819-4896-8f94-a76573c3dd17",
+      "dataset": "JD",
+      "image_id": "4c6936db-9819-4896-8f94-a76573c3dd17",
+      "row_index": 27,
+      "clip_i_prove_new": 0.9449508190155029,
+      "clip_i_promptminer": 0.8212220072746277,
+      "clip_margin": 0.12372881174087524,
+      "cherry_rank": 8,
+      "original": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/A.png",
+        "PromptMiner": "stimuli/JD_4c6936db-9819-4896-8f94-a76573c3dd17/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_022",
+      "dataset": "LEXICA",
+      "image_id": "022",
+      "row_index": 22,
+      "clip_i_prove_new": 0.9157307744026184,
+      "clip_i_promptminer": 0.8910455703735352,
+      "clip_margin": 0.024685204029083252,
+      "cherry_rank": 18,
+      "original": "stimuli/LEXICA_022/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_022/A.png",
+        "PromptMiner": "stimuli/LEXICA_022/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000421455",
+      "dataset": "MSCOCO",
+      "image_id": "000000421455",
+      "row_index": 78,
+      "clip_i_prove_new": 0.7196182608604431,
+      "clip_i_promptminer": 0.6335489153862,
+      "clip_margin": 0.08606934547424316,
+      "cherry_rank": 19,
+      "original": "stimuli/MSCOCO_000000421455/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000421455/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000421455/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_010",
+      "dataset": "LEXICA",
+      "image_id": "010",
+      "row_index": 10,
+      "clip_i_prove_new": 0.8160995244979858,
+      "clip_i_promptminer": 0.7606310844421387,
+      "clip_margin": 0.05546844005584717,
+      "cherry_rank": 11,
+      "original": "stimuli/LEXICA_010/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_010/A.png",
+        "PROVE-new": "stimuli/LEXICA_010/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_56522fda-f85b-46b0-a5ca-6de83c192341",
+      "dataset": "JD",
+      "image_id": "56522fda-f85b-46b0-a5ca-6de83c192341",
+      "row_index": 31,
+      "clip_i_prove_new": 0.9437536001205444,
+      "clip_i_promptminer": 0.800003170967102,
+      "clip_margin": 0.14375042915344238,
+      "cherry_rank": 4,
+      "original": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/A.png",
+        "PromptMiner": "stimuli/JD_56522fda-f85b-46b0-a5ca-6de83c192341/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000231879",
+      "dataset": "MSCOCO",
+      "image_id": "000000231879",
+      "row_index": 44,
+      "clip_i_prove_new": 0.7345548272132874,
+      "clip_i_promptminer": 0.6027665138244629,
+      "clip_margin": 0.13178831338882446,
+      "cherry_rank": 6,
+      "original": "stimuli/MSCOCO_000000231879/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000231879/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000231879/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16213",
+      "dataset": "FLICKR",
+      "image_id": "16213",
+      "row_index": 56,
+      "clip_i_prove_new": 0.6928096413612366,
+      "clip_i_promptminer": 0.5742923021316528,
+      "clip_margin": 0.11851733922958374,
+      "cherry_rank": 10,
+      "original": "stimuli/FLICKR_16213/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16213/A.png",
+        "PROVE-new": "stimuli/FLICKR_16213/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_6404a212-78f8-4bdb-b626-a0322119082b",
+      "dataset": "JD",
+      "image_id": "6404a212-78f8-4bdb-b626-a0322119082b",
+      "row_index": 35,
+      "clip_i_prove_new": 0.8717181086540222,
+      "clip_i_promptminer": 0.7352550029754639,
+      "clip_margin": 0.13646310567855835,
+      "cherry_rank": 6,
+      "original": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/A.png",
+        "PromptMiner": "stimuli/JD_6404a212-78f8-4bdb-b626-a0322119082b/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000082085",
+      "dataset": "MSCOCO",
+      "image_id": "000000082085",
+      "row_index": 10,
+      "clip_i_prove_new": 0.8058817386627197,
+      "clip_i_promptminer": 0.714942455291748,
+      "clip_margin": 0.09093928337097168,
+      "cherry_rank": 17,
+      "original": "stimuli/MSCOCO_000000082085/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000082085/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000082085/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_005",
+      "dataset": "LEXICA",
+      "image_id": "005",
+      "row_index": 5,
+      "clip_i_prove_new": 0.8397100567817688,
+      "clip_i_promptminer": 0.7660759091377258,
+      "clip_margin": 0.07363414764404297,
+      "cherry_rank": 5,
+      "original": "stimuli/LEXICA_005/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_005/A.png",
+        "PromptMiner": "stimuli/LEXICA_005/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "JD_7e52266f-1caf-4af6-9112-55925b5abbf7",
+      "dataset": "JD",
+      "image_id": "7e52266f-1caf-4af6-9112-55925b5abbf7",
+      "row_index": 47,
+      "clip_i_prove_new": 0.9373133778572083,
+      "clip_i_promptminer": 0.8046042919158936,
+      "clip_margin": 0.1327090859413147,
+      "cherry_rank": 7,
+      "original": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/A.png",
+        "PROVE-new": "stimuli/JD_7e52266f-1caf-4af6-9112-55925b5abbf7/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620",
+      "dataset": "JD",
+      "image_id": "0e2d92f1-1efa-4a5d-8603-5b493c60b620",
+      "row_index": 3,
+      "clip_i_prove_new": 0.9319021105766296,
+      "clip_i_promptminer": 0.8528671860694885,
+      "clip_margin": 0.07903492450714111,
+      "cherry_rank": 18,
+      "original": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/A.png",
+        "PromptMiner": "stimuli/JD_0e2d92f1-1efa-4a5d-8603-5b493c60b620/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16693",
+      "dataset": "FLICKR",
+      "image_id": "16693",
+      "row_index": 84,
+      "clip_i_prove_new": 0.8427245020866394,
+      "clip_i_promptminer": 0.7394843101501465,
+      "clip_margin": 0.10324019193649292,
+      "cherry_rank": 14,
+      "original": "stimuli/FLICKR_16693/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_16693/A.png",
+        "PromptMiner": "stimuli/FLICKR_16693/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
       ]
     },
     {
@@ -1909,6 +427,1493 @@
       "slot_order": [
         "PROVE-new",
         "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_15044",
+      "dataset": "FLICKR",
+      "image_id": "15044",
+      "row_index": 4,
+      "clip_i_prove_new": 0.877051830291748,
+      "clip_i_promptminer": 0.7685308456420898,
+      "clip_margin": 0.1085209846496582,
+      "cherry_rank": 13,
+      "original": "stimuli/FLICKR_15044/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_15044/A.png",
+        "PromptMiner": "stimuli/FLICKR_15044/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16528",
+      "dataset": "FLICKR",
+      "image_id": "16528",
+      "row_index": 76,
+      "clip_i_prove_new": 0.7691707611083984,
+      "clip_i_promptminer": 0.6845847368240356,
+      "clip_margin": 0.08458602428436279,
+      "cherry_rank": 19,
+      "original": "stimuli/FLICKR_16528/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_16528/A.png",
+        "PromptMiner": "stimuli/FLICKR_16528/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16246",
+      "dataset": "FLICKR",
+      "image_id": "16246",
+      "row_index": 58,
+      "clip_i_prove_new": 0.8498178720474243,
+      "clip_i_promptminer": 0.7486347556114197,
+      "clip_margin": 0.10118311643600464,
+      "cherry_rank": 15,
+      "original": "stimuli/FLICKR_16246/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_16246/A.png",
+        "PromptMiner": "stimuli/FLICKR_16246/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "JD_bc460b39-83db-46cb-aca3-26bbbeaba66e",
+      "dataset": "JD",
+      "image_id": "bc460b39-83db-46cb-aca3-26bbbeaba66e",
+      "row_index": 73,
+      "clip_i_prove_new": 0.8324952721595764,
+      "clip_i_promptminer": 0.6255390644073486,
+      "clip_margin": 0.20695620775222778,
+      "cherry_rank": 2,
+      "original": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/A.png",
+        "PromptMiner": "stimuli/JD_bc460b39-83db-46cb-aca3-26bbbeaba66e/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000485844",
+      "dataset": "MSCOCO",
+      "image_id": "000000485844",
+      "row_index": 84,
+      "clip_i_prove_new": 0.7422571778297424,
+      "clip_i_promptminer": 0.6498274803161621,
+      "clip_margin": 0.09242969751358032,
+      "cherry_rank": 16,
+      "original": "stimuli/MSCOCO_000000485844/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000485844/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000485844/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000173091",
+      "dataset": "MSCOCO",
+      "image_id": "000000173091",
+      "row_index": 32,
+      "clip_i_prove_new": 0.7316288948059082,
+      "clip_i_promptminer": 0.608181357383728,
+      "clip_margin": 0.12344753742218018,
+      "cherry_rank": 7,
+      "original": "stimuli/MSCOCO_000000173091/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000173091/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000173091/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000060507",
+      "dataset": "MSCOCO",
+      "image_id": "000000060507",
+      "row_index": 4,
+      "clip_i_prove_new": 0.8293582201004028,
+      "clip_i_promptminer": 0.7117874026298523,
+      "clip_margin": 0.11757081747055054,
+      "cherry_rank": 8,
+      "original": "stimuli/MSCOCO_000000060507/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000060507/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000060507/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "JD_7529493b-6e79-4c0c-a599-98ae24804743",
+      "dataset": "JD",
+      "image_id": "7529493b-6e79-4c0c-a599-98ae24804743",
+      "row_index": 41,
+      "clip_i_prove_new": 0.8574017882347107,
+      "clip_i_promptminer": 0.7934152483940125,
+      "clip_margin": 0.06398653984069824,
+      "cherry_rank": 26,
+      "original": "stimuli/JD_7529493b-6e79-4c0c-a599-98ae24804743/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_7529493b-6e79-4c0c-a599-98ae24804743/A.png",
+        "PROVE-new": "stimuli/JD_7529493b-6e79-4c0c-a599-98ae24804743/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "replaced_nsfw": true
+    },
+    {
+      "trial_id": "MSCOCO_000000382111",
+      "dataset": "MSCOCO",
+      "image_id": "000000382111",
+      "row_index": 67,
+      "clip_i_prove_new": 0.8121435046195984,
+      "clip_i_promptminer": 0.7116656303405762,
+      "clip_margin": 0.10047787427902222,
+      "cherry_rank": 12,
+      "original": "stimuli/MSCOCO_000000382111/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000382111/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000382111/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_044",
+      "dataset": "LEXICA",
+      "image_id": "044",
+      "row_index": 44,
+      "clip_i_prove_new": 0.8888764381408691,
+      "clip_i_promptminer": 0.8701448440551758,
+      "clip_margin": 0.01873159408569336,
+      "cherry_rank": 24,
+      "original": "stimuli/LEXICA_044/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_044/A.png",
+        "PromptMiner": "stimuli/LEXICA_044/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16273",
+      "dataset": "FLICKR",
+      "image_id": "16273",
+      "row_index": 60,
+      "clip_i_prove_new": 0.8959678411483765,
+      "clip_i_promptminer": 0.7573810815811157,
+      "clip_margin": 0.13858675956726074,
+      "cherry_rank": 7,
+      "original": "stimuli/FLICKR_16273/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_16273/A.png",
+        "PromptMiner": "stimuli/FLICKR_16273/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "JD_2260017f-0427-491f-823c-4d517d90a272",
+      "dataset": "JD",
+      "image_id": "2260017f-0427-491f-823c-4d517d90a272",
+      "row_index": 11,
+      "clip_i_prove_new": 0.87043297290802,
+      "clip_i_promptminer": 0.7979152798652649,
+      "clip_margin": 0.07251769304275513,
+      "cherry_rank": 23,
+      "original": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/A.png",
+        "PROVE-new": "stimuli/JD_2260017f-0427-491f-823c-4d517d90a272/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_067",
+      "dataset": "LEXICA",
+      "image_id": "067",
+      "row_index": 67,
+      "clip_i_prove_new": 0.938446044921875,
+      "clip_i_promptminer": 0.9233238101005554,
+      "clip_margin": 0.01512223482131958,
+      "cherry_rank": 26,
+      "original": "stimuli/LEXICA_067/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_067/A.png",
+        "PromptMiner": "stimuli/LEXICA_067/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "replaced_nsfw": true
+    },
+    {
+      "trial_id": "MSCOCO_000000091500",
+      "dataset": "MSCOCO",
+      "image_id": "000000091500",
+      "row_index": 12,
+      "clip_i_prove_new": 0.7143629193305969,
+      "clip_i_promptminer": 0.62995445728302,
+      "clip_margin": 0.0844084620475769,
+      "cherry_rank": 20,
+      "original": "stimuli/MSCOCO_000000091500/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000091500/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000091500/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16778",
+      "dataset": "FLICKR",
+      "image_id": "16778",
+      "row_index": 89,
+      "clip_i_prove_new": 0.9137705564498901,
+      "clip_i_promptminer": 0.820919394493103,
+      "clip_margin": 0.09285116195678711,
+      "cherry_rank": 18,
+      "original": "stimuli/FLICKR_16778/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16778/A.png",
+        "PROVE-new": "stimuli/FLICKR_16778/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16007",
+      "dataset": "FLICKR",
+      "image_id": "16007",
+      "row_index": 43,
+      "clip_i_prove_new": 0.8734961748123169,
+      "clip_i_promptminer": 0.6868705749511719,
+      "clip_margin": 0.18662559986114502,
+      "cherry_rank": 3,
+      "original": "stimuli/FLICKR_16007/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_16007/A.png",
+        "PromptMiner": "stimuli/FLICKR_16007/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000017714",
+      "dataset": "MSCOCO",
+      "image_id": "000000017714",
+      "row_index": 1,
+      "clip_i_prove_new": 0.8524547815322876,
+      "clip_i_promptminer": 0.745266318321228,
+      "clip_margin": 0.10718846321105957,
+      "cherry_rank": 11,
+      "original": "stimuli/MSCOCO_000000017714/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000017714/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000017714/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000567197",
+      "dataset": "MSCOCO",
+      "image_id": "000000567197",
+      "row_index": 97,
+      "clip_i_prove_new": 0.8546327352523804,
+      "clip_i_promptminer": 0.6911113858222961,
+      "clip_margin": 0.16352134943008423,
+      "cherry_rank": 2,
+      "original": "stimuli/MSCOCO_000000567197/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000567197/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000567197/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_029",
+      "dataset": "LEXICA",
+      "image_id": "029",
+      "row_index": 29,
+      "clip_i_prove_new": 0.9222859144210815,
+      "clip_i_promptminer": 0.872982382774353,
+      "clip_margin": 0.049303531646728516,
+      "cherry_rank": 12,
+      "original": "stimuli/LEXICA_029/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_029/A.png",
+        "PromptMiner": "stimuli/LEXICA_029/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000563349",
+      "dataset": "MSCOCO",
+      "image_id": "000000563349",
+      "row_index": 96,
+      "clip_i_prove_new": 0.8920793533325195,
+      "clip_i_promptminer": 0.798384964466095,
+      "clip_margin": 0.09369438886642456,
+      "cherry_rank": 15,
+      "original": "stimuli/MSCOCO_000000563349/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000563349/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000563349/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000531135",
+      "dataset": "MSCOCO",
+      "image_id": "000000531135",
+      "row_index": 89,
+      "clip_i_prove_new": 0.7461801171302795,
+      "clip_i_promptminer": 0.5992675423622131,
+      "clip_margin": 0.1469125747680664,
+      "cherry_rank": 4,
+      "original": "stimuli/MSCOCO_000000531135/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000531135/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000531135/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_15270",
+      "dataset": "FLICKR",
+      "image_id": "15270",
+      "row_index": 15,
+      "clip_i_prove_new": 0.7800493240356445,
+      "clip_i_promptminer": 0.6650676727294922,
+      "clip_margin": 0.11498165130615234,
+      "cherry_rank": 11,
+      "original": "stimuli/FLICKR_15270/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_15270/A.png",
+        "PromptMiner": "stimuli/FLICKR_15270/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "JD_e7f23008-8437-4f17-8a40-6a1b4655172f",
+      "dataset": "JD",
+      "image_id": "e7f23008-8437-4f17-8a40-6a1b4655172f",
+      "row_index": 92,
+      "clip_i_prove_new": 0.9520188570022583,
+      "clip_i_promptminer": 0.8776770830154419,
+      "clip_margin": 0.0743417739868164,
+      "cherry_rank": 21,
+      "original": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/A.png",
+        "PromptMiner": "stimuli/JD_e7f23008-8437-4f17-8a40-6a1b4655172f/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16300",
+      "dataset": "FLICKR",
+      "image_id": "16300",
+      "row_index": 63,
+      "clip_i_prove_new": 0.9049725532531738,
+      "clip_i_promptminer": 0.8246312141418457,
+      "clip_margin": 0.08034133911132812,
+      "cherry_rank": 21,
+      "original": "stimuli/FLICKR_16300/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16300/A.png",
+        "PROVE-new": "stimuli/FLICKR_16300/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_035",
+      "dataset": "LEXICA",
+      "image_id": "035",
+      "row_index": 35,
+      "clip_i_prove_new": 0.9464864730834961,
+      "clip_i_promptminer": 0.9288570284843445,
+      "clip_margin": 0.01762944459915161,
+      "cherry_rank": 25,
+      "original": "stimuli/LEXICA_035/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_035/A.png",
+        "PROVE-new": "stimuli/LEXICA_035/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9",
+      "dataset": "JD",
+      "image_id": "3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9",
+      "row_index": 22,
+      "clip_i_prove_new": 0.9331212043762207,
+      "clip_i_promptminer": 0.8472909927368164,
+      "clip_margin": 0.0858302116394043,
+      "cherry_rank": 15,
+      "original": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/A.png",
+        "PROVE-new": "stimuli/JD_3fd2ca8d-fd02-44a4-8a9e-2417ecf239a9/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_071",
+      "dataset": "LEXICA",
+      "image_id": "071",
+      "row_index": 71,
+      "clip_i_prove_new": 0.9100882411003113,
+      "clip_i_promptminer": 0.8871058225631714,
+      "clip_margin": 0.022982418537139893,
+      "cherry_rank": 21,
+      "original": "stimuli/LEXICA_071/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_071/A.png",
+        "PROVE-new": "stimuli/LEXICA_071/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_050",
+      "dataset": "LEXICA",
+      "image_id": "050",
+      "row_index": 50,
+      "clip_i_prove_new": 0.86421799659729,
+      "clip_i_promptminer": 0.8016993999481201,
+      "clip_margin": 0.06251859664916992,
+      "cherry_rank": 7,
+      "original": "stimuli/LEXICA_050/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_050/A.png",
+        "PROVE-new": "stimuli/LEXICA_050/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_090",
+      "dataset": "LEXICA",
+      "image_id": "090",
+      "row_index": 90,
+      "clip_i_prove_new": 0.9323384761810303,
+      "clip_i_promptminer": 0.872908890247345,
+      "clip_margin": 0.0594295859336853,
+      "cherry_rank": 9,
+      "original": "stimuli/LEXICA_090/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_090/A.png",
+        "PROVE-new": "stimuli/LEXICA_090/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16609",
+      "dataset": "FLICKR",
+      "image_id": "16609",
+      "row_index": 78,
+      "clip_i_prove_new": 0.7950466275215149,
+      "clip_i_promptminer": 0.714018702507019,
+      "clip_margin": 0.08102792501449585,
+      "cherry_rank": 20,
+      "original": "stimuli/FLICKR_16609/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_16609/A.png",
+        "PromptMiner": "stimuli/FLICKR_16609/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_086",
+      "dataset": "LEXICA",
+      "image_id": "086",
+      "row_index": 86,
+      "clip_i_prove_new": 0.921991765499115,
+      "clip_i_promptminer": 0.8780337572097778,
+      "clip_margin": 0.04395800828933716,
+      "cherry_rank": 14,
+      "original": "stimuli/LEXICA_086/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_086/A.png",
+        "PROVE-new": "stimuli/LEXICA_086/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000318138",
+      "dataset": "MSCOCO",
+      "image_id": "000000318138",
+      "row_index": 54,
+      "clip_i_prove_new": 0.6840190887451172,
+      "clip_i_promptminer": 0.5450576543807983,
+      "clip_margin": 0.13896143436431885,
+      "cherry_rank": 5,
+      "original": "stimuli/MSCOCO_000000318138/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000318138/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000318138/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_15081",
+      "dataset": "FLICKR",
+      "image_id": "15081",
+      "row_index": 7,
+      "clip_i_prove_new": 0.8386362791061401,
+      "clip_i_promptminer": 0.6922453045845032,
+      "clip_margin": 0.14639097452163696,
+      "cherry_rank": 5,
+      "original": "stimuli/FLICKR_15081/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_15081/A.png",
+        "PromptMiner": "stimuli/FLICKR_15081/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_018",
+      "dataset": "LEXICA",
+      "image_id": "018",
+      "row_index": 18,
+      "clip_i_prove_new": 0.8257613182067871,
+      "clip_i_promptminer": 0.7465944290161133,
+      "clip_margin": 0.07916688919067383,
+      "cherry_rank": 4,
+      "original": "stimuli/LEXICA_018/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_018/A.png",
+        "PromptMiner": "stimuli/LEXICA_018/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_060",
+      "dataset": "LEXICA",
+      "image_id": "060",
+      "row_index": 60,
+      "clip_i_prove_new": 0.9198809862136841,
+      "clip_i_promptminer": 0.8610506653785706,
+      "clip_margin": 0.058830320835113525,
+      "cherry_rank": 10,
+      "original": "stimuli/LEXICA_060/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_060/A.png",
+        "PROVE-new": "stimuli/LEXICA_060/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16529",
+      "dataset": "FLICKR",
+      "image_id": "16529",
+      "row_index": 77,
+      "clip_i_prove_new": 0.848092794418335,
+      "clip_i_promptminer": 0.6411689519882202,
+      "clip_margin": 0.20692384243011475,
+      "cherry_rank": 2,
+      "original": "stimuli/FLICKR_16529/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16529/A.png",
+        "PROVE-new": "stimuli/FLICKR_16529/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_063",
+      "dataset": "LEXICA",
+      "image_id": "063",
+      "row_index": 63,
+      "clip_i_prove_new": 0.9120493531227112,
+      "clip_i_promptminer": 0.8963080048561096,
+      "clip_margin": 0.015741348266601562,
+      "cherry_rank": 26,
+      "original": "stimuli/LEXICA_063/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_063/A.png",
+        "PromptMiner": "stimuli/LEXICA_063/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "replaced_nsfw": true
+    },
+    {
+      "trial_id": "MSCOCO_000000546823",
+      "dataset": "MSCOCO",
+      "image_id": "000000546823",
+      "row_index": 93,
+      "clip_i_prove_new": 0.7411645650863647,
+      "clip_i_promptminer": 0.6253219842910767,
+      "clip_margin": 0.11584258079528809,
+      "cherry_rank": 9,
+      "original": "stimuli/MSCOCO_000000546823/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000546823/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000546823/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16631",
+      "dataset": "FLICKR",
+      "image_id": "16631",
+      "row_index": 80,
+      "clip_i_prove_new": 0.839016854763031,
+      "clip_i_promptminer": 0.6707151532173157,
+      "clip_margin": 0.16830170154571533,
+      "cherry_rank": 4,
+      "original": "stimuli/FLICKR_16631/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16631/A.png",
+        "PROVE-new": "stimuli/FLICKR_16631/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000111207",
+      "dataset": "MSCOCO",
+      "image_id": "000000111207",
+      "row_index": 18,
+      "clip_i_prove_new": 0.8329365253448486,
+      "clip_i_promptminer": 0.7486156225204468,
+      "clip_margin": 0.08432090282440186,
+      "cherry_rank": 21,
+      "original": "stimuli/MSCOCO_000000111207/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000111207/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000111207/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_15248",
+      "dataset": "FLICKR",
+      "image_id": "15248",
+      "row_index": 14,
+      "clip_i_prove_new": 0.8301926255226135,
+      "clip_i_promptminer": 0.6861716508865356,
+      "clip_margin": 0.14402097463607788,
+      "cherry_rank": 6,
+      "original": "stimuli/FLICKR_15248/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_15248/A.png",
+        "PROVE-new": "stimuli/FLICKR_15248/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_6276a2cb-2855-4b27-918a-444cea578815",
+      "dataset": "JD",
+      "image_id": "6276a2cb-2855-4b27-918a-444cea578815",
+      "row_index": 34,
+      "clip_i_prove_new": 0.8739218711853027,
+      "clip_i_promptminer": 0.8005386590957642,
+      "clip_margin": 0.07338321208953857,
+      "cherry_rank": 22,
+      "original": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/A.png",
+        "PROVE-new": "stimuli/JD_6276a2cb-2855-4b27-918a-444cea578815/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_097",
+      "dataset": "LEXICA",
+      "image_id": "097",
+      "row_index": 97,
+      "clip_i_prove_new": 0.8432323932647705,
+      "clip_i_promptminer": 0.8006370663642883,
+      "clip_margin": 0.04259532690048218,
+      "cherry_rank": 15,
+      "original": "stimuli/LEXICA_097/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_097/A.png",
+        "PromptMiner": "stimuli/LEXICA_097/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16294",
+      "dataset": "FLICKR",
+      "image_id": "16294",
+      "row_index": 61,
+      "clip_i_prove_new": 0.7814271450042725,
+      "clip_i_promptminer": 0.6804056763648987,
+      "clip_margin": 0.10102146863937378,
+      "cherry_rank": 16,
+      "original": "stimuli/FLICKR_16294/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16294/A.png",
+        "PROVE-new": "stimuli/FLICKR_16294/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_15921",
+      "dataset": "FLICKR",
+      "image_id": "15921",
+      "row_index": 40,
+      "clip_i_prove_new": 0.791788637638092,
+      "clip_i_promptminer": 0.6774622201919556,
+      "clip_margin": 0.11432641744613647,
+      "cherry_rank": 12,
+      "original": "stimuli/FLICKR_15921/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_15921/A.png",
+        "PromptMiner": "stimuli/FLICKR_15921/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000154431",
+      "dataset": "MSCOCO",
+      "image_id": "000000154431",
+      "row_index": 26,
+      "clip_i_prove_new": 0.8558083176612854,
+      "clip_i_promptminer": 0.664874255657196,
+      "clip_margin": 0.19093406200408936,
+      "cherry_rank": 1,
+      "original": "stimuli/MSCOCO_000000154431/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000154431/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000154431/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_16680",
+      "dataset": "FLICKR",
+      "image_id": "16680",
+      "row_index": 82,
+      "clip_i_prove_new": 0.8049594759941101,
+      "clip_i_promptminer": 0.7249791026115417,
+      "clip_margin": 0.07998037338256836,
+      "cherry_rank": 22,
+      "original": "stimuli/FLICKR_16680/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16680/A.png",
+        "PROVE-new": "stimuli/FLICKR_16680/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000343937",
+      "dataset": "MSCOCO",
+      "image_id": "000000343937",
+      "row_index": 60,
+      "clip_i_prove_new": 0.8091936111450195,
+      "clip_i_promptminer": 0.7395622134208679,
+      "clip_margin": 0.06963139772415161,
+      "cherry_rank": 24,
+      "original": "stimuli/MSCOCO_000000343937/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000343937/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000343937/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_030",
+      "dataset": "LEXICA",
+      "image_id": "030",
+      "row_index": 30,
+      "clip_i_prove_new": 0.9482632279396057,
+      "clip_i_promptminer": 0.9286376237869263,
+      "clip_margin": 0.019625604152679443,
+      "cherry_rank": 22,
+      "original": "stimuli/LEXICA_030/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_030/A.png",
+        "PromptMiner": "stimuli/LEXICA_030/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_017",
+      "dataset": "LEXICA",
+      "image_id": "017",
+      "row_index": 17,
+      "clip_i_prove_new": 0.892378568649292,
+      "clip_i_promptminer": 0.8506170511245728,
+      "clip_margin": 0.04176151752471924,
+      "cherry_rank": 16,
+      "original": "stimuli/LEXICA_017/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_017/A.png",
+        "PROVE-new": "stimuli/LEXICA_017/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f",
+      "dataset": "JD",
+      "image_id": "7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f",
+      "row_index": 46,
+      "clip_i_prove_new": 0.9476460814476013,
+      "clip_i_promptminer": 0.8752844333648682,
+      "clip_margin": 0.07236164808273315,
+      "cherry_rank": 24,
+      "original": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/A.png",
+        "PROVE-new": "stimuli/JD_7d8dc617-e70f-4721-a5b4-bb7a6d3bda8f/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_052",
+      "dataset": "LEXICA",
+      "image_id": "052",
+      "row_index": 52,
+      "clip_i_prove_new": 0.8780725002288818,
+      "clip_i_promptminer": 0.8183397054672241,
+      "clip_margin": 0.059732794761657715,
+      "cherry_rank": 8,
+      "original": "stimuli/LEXICA_052/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_052/A.png",
+        "PromptMiner": "stimuli/LEXICA_052/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_15656",
+      "dataset": "FLICKR",
+      "image_id": "15656",
+      "row_index": 28,
+      "clip_i_prove_new": 0.779786229133606,
+      "clip_i_promptminer": 0.7007203698158264,
+      "clip_margin": 0.07906585931777954,
+      "cherry_rank": 23,
+      "original": "stimuli/FLICKR_15656/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/FLICKR_15656/A.png",
+        "PromptMiner": "stimuli/FLICKR_15656/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_023",
+      "dataset": "LEXICA",
+      "image_id": "023",
+      "row_index": 23,
+      "clip_i_prove_new": 0.9520736932754517,
+      "clip_i_promptminer": 0.9380148649215698,
+      "clip_margin": 0.014058828353881836,
+      "cherry_rank": 26,
+      "original": "stimuli/LEXICA_023/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_023/A.png",
+        "PromptMiner": "stimuli/LEXICA_023/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "replaced_nsfw": true
+    },
+    {
+      "trial_id": "FLICKR_16376",
+      "dataset": "FLICKR",
+      "image_id": "16376",
+      "row_index": 67,
+      "clip_i_prove_new": 0.7628297209739685,
+      "clip_i_promptminer": 0.5197319388389587,
+      "clip_margin": 0.24309778213500977,
+      "cherry_rank": 1,
+      "original": "stimuli/FLICKR_16376/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16376/A.png",
+        "PROVE-new": "stimuli/FLICKR_16376/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000066135",
+      "dataset": "MSCOCO",
+      "image_id": "000000066135",
+      "row_index": 5,
+      "clip_i_prove_new": 0.8838378190994263,
+      "clip_i_promptminer": 0.8184254169464111,
+      "clip_margin": 0.06541240215301514,
+      "cherry_rank": 25,
+      "original": "stimuli/MSCOCO_000000066135/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000066135/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000066135/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_015",
+      "dataset": "LEXICA",
+      "image_id": "015",
+      "row_index": 15,
+      "clip_i_prove_new": 0.8585046529769897,
+      "clip_i_promptminer": 0.7935118675231934,
+      "clip_margin": 0.06499278545379639,
+      "cherry_rank": 6,
+      "original": "stimuli/LEXICA_015/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_015/A.png",
+        "PromptMiner": "stimuli/LEXICA_015/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6",
+      "dataset": "JD",
+      "image_id": "c8c6d99d-5b0d-4599-9830-cc0eebd995a6",
+      "row_index": 78,
+      "clip_i_prove_new": 0.9380519390106201,
+      "clip_i_promptminer": 0.8344440460205078,
+      "clip_margin": 0.1036078929901123,
+      "cherry_rank": 10,
+      "original": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/A.png",
+        "PromptMiner": "stimuli/JD_c8c6d99d-5b0d-4599-9830-cc0eebd995a6/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000383842",
+      "dataset": "MSCOCO",
+      "image_id": "000000383842",
+      "row_index": 69,
+      "clip_i_prove_new": 0.679151713848114,
+      "clip_i_promptminer": 0.6069831252098083,
+      "clip_margin": 0.07216858863830566,
+      "cherry_rank": 22,
+      "original": "stimuli/MSCOCO_000000383842/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000383842/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000383842/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_5f522f43-adce-43ba-a770-5943d18038b2",
+      "dataset": "JD",
+      "image_id": "5f522f43-adce-43ba-a770-5943d18038b2",
+      "row_index": 33,
+      "clip_i_prove_new": 0.9369182586669922,
+      "clip_i_promptminer": 0.8603799343109131,
+      "clip_margin": 0.0765383243560791,
+      "cherry_rank": 19,
+      "original": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/A.png",
+        "PROVE-new": "stimuli/JD_5f522f43-adce-43ba-a770-5943d18038b2/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000179487",
+      "dataset": "MSCOCO",
+      "image_id": "000000179487",
+      "row_index": 35,
+      "clip_i_prove_new": 0.8825908899307251,
+      "clip_i_promptminer": 0.7690854668617249,
+      "clip_margin": 0.11350542306900024,
+      "cherry_rank": 10,
+      "original": "stimuli/MSCOCO_000000179487/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000179487/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000179487/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb",
+      "dataset": "JD",
+      "image_id": "888bfb03-792e-4d25-98ba-5e0d4bf0ebfb",
+      "row_index": 55,
+      "clip_i_prove_new": 0.925979733467102,
+      "clip_i_promptminer": 0.8343842029571533,
+      "clip_margin": 0.09159553050994873,
+      "cherry_rank": 13,
+      "original": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/A.png",
+        "PromptMiner": "stimuli/JD_888bfb03-792e-4d25-98ba-5e0d4bf0ebfb/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "JD_ac2c0585-8b82-49b2-a512-6731c910a8af",
+      "dataset": "JD",
+      "image_id": "ac2c0585-8b82-49b2-a512-6731c910a8af",
+      "row_index": 64,
+      "clip_i_prove_new": 0.8421690464019775,
+      "clip_i_promptminer": 0.6551728844642639,
+      "clip_margin": 0.18699616193771362,
+      "cherry_rank": 3,
+      "original": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/A.png",
+        "PROVE-new": "stimuli/JD_ac2c0585-8b82-49b2-a512-6731c910a8af/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_027",
+      "dataset": "LEXICA",
+      "image_id": "027",
+      "row_index": 27,
+      "clip_i_prove_new": 0.9332152605056763,
+      "clip_i_promptminer": 0.9160799980163574,
+      "clip_margin": 0.017135262489318848,
+      "cherry_rank": 26,
+      "original": "stimuli/LEXICA_027/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_027/A.png",
+        "PROVE-new": "stimuli/LEXICA_027/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "replaced_nsfw": true
+    },
+    {
+      "trial_id": "FLICKR_16062",
+      "dataset": "FLICKR",
+      "image_id": "16062",
+      "row_index": 48,
+      "clip_i_prove_new": 0.8276559710502625,
+      "clip_i_promptminer": 0.699390172958374,
+      "clip_margin": 0.12826579809188843,
+      "cherry_rank": 8,
+      "original": "stimuli/FLICKR_16062/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_16062/A.png",
+        "PROVE-new": "stimuli/FLICKR_16062/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_11ec1e15-8698-449f-9738-c34120354c30",
+      "dataset": "JD",
+      "image_id": "11ec1e15-8698-449f-9738-c34120354c30",
+      "row_index": 4,
+      "clip_i_prove_new": 0.8486436605453491,
+      "clip_i_promptminer": 0.5988717079162598,
+      "clip_margin": 0.24977195262908936,
+      "cherry_rank": 1,
+      "original": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/A.png",
+        "PROVE-new": "stimuli/JD_11ec1e15-8698-449f-9738-c34120354c30/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000015338",
+      "dataset": "MSCOCO",
+      "image_id": "000000015338",
+      "row_index": 0,
+      "clip_i_prove_new": 0.8417462110519409,
+      "clip_i_promptminer": 0.6919823884963989,
+      "clip_margin": 0.149763822555542,
+      "cherry_rank": 3,
+      "original": "stimuli/MSCOCO_000000015338/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/MSCOCO_000000015338/A.png",
+        "PROVE-new": "stimuli/MSCOCO_000000015338/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_1e12e81a-26bf-46ca-8c77-288f1be2179d",
+      "dataset": "JD",
+      "image_id": "1e12e81a-26bf-46ca-8c77-288f1be2179d",
+      "row_index": 10,
+      "clip_i_prove_new": 0.8796827793121338,
+      "clip_i_promptminer": 0.7627912759780884,
+      "clip_margin": 0.11689150333404541,
+      "cherry_rank": 9,
+      "original": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/A.png",
+        "PromptMiner": "stimuli/JD_1e12e81a-26bf-46ca-8c77-288f1be2179d/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "FLICKR_15150",
+      "dataset": "FLICKR",
+      "image_id": "15150",
+      "row_index": 10,
+      "clip_i_prove_new": 0.8559446334838867,
+      "clip_i_promptminer": 0.7310647964477539,
+      "clip_margin": 0.12487983703613281,
+      "cherry_rank": 9,
+      "original": "stimuli/FLICKR_15150/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli/FLICKR_15150/A.png",
+        "PROVE-new": "stimuli/FLICKR_15150/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_033",
+      "dataset": "LEXICA",
+      "image_id": "033",
+      "row_index": 33,
+      "clip_i_prove_new": 0.947435736656189,
+      "clip_i_promptminer": 0.8986936807632446,
+      "clip_margin": 0.048742055892944336,
+      "cherry_rank": 13,
+      "original": "stimuli/LEXICA_033/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_033/A.png",
+        "PROVE-new": "stimuli/LEXICA_033/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e",
+      "dataset": "JD",
+      "image_id": "81b8dc8d-4893-4d22-a34b-d1d61d98680e",
+      "row_index": 49,
+      "clip_i_prove_new": 0.8712385296821594,
+      "clip_i_promptminer": 0.7838964462280273,
+      "clip_margin": 0.08734208345413208,
+      "cherry_rank": 14,
+      "original": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/A.png",
+        "PROVE-new": "stimuli/JD_81b8dc8d-4893-4d22-a34b-d1d61d98680e/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d",
+      "dataset": "JD",
+      "image_id": "4d6c0a84-232f-4d99-a3c9-2c7858112a8d",
+      "row_index": 28,
+      "clip_i_prove_new": 0.9309544563293457,
+      "clip_i_promptminer": 0.7938669919967651,
+      "clip_margin": 0.13708746433258057,
+      "cherry_rank": 5,
+      "original": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/A.png",
+        "PROVE-new": "stimuli/JD_4d6c0a84-232f-4d99-a3c9-2c7858112a8d/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb",
+      "dataset": "JD",
+      "image_id": "83fa93ef-f4df-4787-853c-dcd3a3fcb5fb",
+      "row_index": 51,
+      "clip_i_prove_new": 0.9592235088348389,
+      "clip_i_promptminer": 0.8627302050590515,
+      "clip_margin": 0.09649330377578735,
+      "cherry_rank": 12,
+      "original": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/A.png",
+        "PROVE-new": "stimuli/JD_83fa93ef-f4df-4787-853c-dcd3a3fcb5fb/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "JD_3a938a29-3b7f-44e3-b442-ddeb59a32517",
+      "dataset": "JD",
+      "image_id": "3a938a29-3b7f-44e3-b442-ddeb59a32517",
+      "row_index": 18,
+      "clip_i_prove_new": 0.9353960752487183,
+      "clip_i_promptminer": 0.8534939289093018,
+      "clip_margin": 0.0819021463394165,
+      "cherry_rank": 17,
+      "original": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/A.png",
+        "PromptMiner": "stimuli/JD_3a938a29-3b7f-44e3-b442-ddeb59a32517/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_021",
+      "dataset": "LEXICA",
+      "image_id": "021",
+      "row_index": 21,
+      "clip_i_prove_new": 0.9417571425437927,
+      "clip_i_promptminer": 0.8561073541641235,
+      "clip_margin": 0.08564978837966919,
+      "cherry_rank": 3,
+      "original": "stimuli/LEXICA_021/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_021/A.png",
+        "PROVE-new": "stimuli/LEXICA_021/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_083",
+      "dataset": "LEXICA",
+      "image_id": "083",
+      "row_index": 83,
+      "clip_i_prove_new": 0.9133380651473999,
+      "clip_i_promptminer": 0.8839563131332397,
+      "clip_margin": 0.029381752014160156,
+      "cherry_rank": 17,
+      "original": "stimuli/LEXICA_083/original.png",
+      "methods": {
+        "PROVE-new": "stimuli/LEXICA_083/A.png",
+        "PromptMiner": "stimuli/LEXICA_083/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "MSCOCO_000000323496",
+      "dataset": "MSCOCO",
+      "image_id": "000000323496",
+      "row_index": 56,
+      "clip_i_prove_new": 0.8840881586074829,
+      "clip_i_promptminer": 0.7838308811187744,
+      "clip_margin": 0.1002572774887085,
+      "cherry_rank": 13,
+      "original": "stimuli/MSCOCO_000000323496/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli/MSCOCO_000000323496/A.png",
+        "PromptMiner": "stimuli/MSCOCO_000000323496/B.png"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ]
+    },
+    {
+      "trial_id": "LEXICA_066",
+      "dataset": "LEXICA",
+      "image_id": "066",
+      "row_index": 66,
+      "clip_i_prove_new": 0.9527767896652222,
+      "clip_i_promptminer": 0.929255485534668,
+      "clip_margin": 0.0235213041305542,
+      "cherry_rank": 19,
+      "original": "stimuli/LEXICA_066/original.png",
+      "methods": {
+        "PromptMiner": "stimuli/LEXICA_066/A.png",
+        "PROVE-new": "stimuli/LEXICA_066/B.png"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
       ]
     }
   ]
