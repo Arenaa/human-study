@@ -1,18 +1,27 @@
 # Human preference study
 
-Anonymous online study: pick which of two regenerations (**A** / **B**) matches the Original better (100 trials).
+Anonymous online study: pick which of two regenerations (**A** / **B**) matches the Original better.
 
-**Live page:** https://arenaa.github.io/human-study/
+**4 parts × 25 trials**, each part balanced across MSCOCO / FLICKR / LEXICA / JD.
+
+**Hub:** https://arenaa.github.io/human-study/
+
+| Part | Link |
+|------|------|
+| 1 | https://arenaa.github.io/human-study/study.html?p=1 |
+| 2 | https://arenaa.github.io/human-study/study.html?p=2 |
+| 3 | https://arenaa.github.io/human-study/study.html?p=3 |
+| 4 | https://arenaa.github.io/human-study/study.html?p=4 |
 
 ## For participants
 
-1. Open the page link
+1. Open a part link (or the hub and choose a part)
 2. Click **Start**
 3. For each trial, choose **A** or **B**
-4. At the end, JSON + CSV files download automatically
+4. JSON + CSV download automatically
 5. Email the files to **mk2524@georgetown.edu**
 
-## For the organizer (publish / update)
+## For the organizer
 
 ```bash
 git add -A
