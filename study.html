@@ -52,19 +52,18 @@ a.mail{color:var(--accent);font-weight:600}
 </head>
 <body>
 <header>
-  <b>Human study · Part <span id="partLabel">1</span>/4</b>
+  <b>Human study</b>
   <span class="meta" id="progress">—</span>
   <div class="bar"><i id="bar"></i></div>
   <span class="meta" id="raterMeta"></span>
 </header>
 <main>
   <section class="card" id="intro">
-    <h1>Human preference evaluation <span class="meta" id="partTitle">(Part 1/4)</span></h1>
+    <h1>Human preference evaluation</h1>
     <p id="instruction">Loading study…</p>
-    <p class="hint">This part has <b>24</b> trials — <b>6 from each dataset</b>. This study is <b>anonymous</b>.</p>
+    <p class="hint">There are <b>24</b> trials. This study is <b>anonymous</b>.</p>
     <p class="hint">When you finish, a results file downloads automatically. Please email it to
       <a class="mail" href="mailto:mk2524@georgetown.edu">mk2524@georgetown.edu</a>.</p>
-    <p class="hint"><a href="index.html">← All parts</a></p>
     <div class="row">
       <button class="btn" id="startBtn" disabled>Start</button>
     </div>
@@ -152,12 +151,11 @@ function downloadResults(payload){
 }
 
 async function loadStudy(){
-  $('partLabel').textContent = String(PART);
-  $('partTitle').textContent = `(Part ${PART}/4)`;
-  document.title = `Human preference study — Part ${PART}/4`;
-  const res = await fetch(`study_p${PART}.json?v=parts2`, {cache: 'no-store'});
-  if(!res.ok) throw new Error(`study_p${PART}.json missing`);
+  document.title = 'Human preference study';
+  const res = await fetch(`study_p${PART}.json?v=parts3`, {cache: 'no-store'});
+  if(!res.ok) throw new Error('study data missing');
   STUDY = await res.json();
+  // Do not show part/dataset metadata to participants.
   $('instruction').textContent = STUDY.instruction || '';
   $('startBtn').disabled = false;
   updateProgress();
@@ -165,7 +163,7 @@ async function loadStudy(){
 
 function bindImg(img, src){
   img.alt = img.alt || '';
-  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=parts2';
+  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=parts3';
   const alt = src.endsWith('.jpg') ? src.replace(/\.jpg$/i, '.png')
             : src.endsWith('.png') ? src.replace(/\.png$/i, '.jpg')
             : null;
@@ -289,7 +287,7 @@ function finishStudy(){
     part: PART,
     parts: 4,
     task:'preference',
-    study_title: STUDY.title || `Part ${PART}/4`,
+    study_title: STUDY.title || 'Human preference study',
     study_methods:STUDY.methods,
     n_trials:STUDY.trials.length,
     submission_id: crypto.randomUUID ? crypto.randomUUID() : String(Date.now()),
@@ -300,8 +298,8 @@ function finishStudy(){
   downloadResults(payload);
   $('trial').classList.add('hidden');
   $('done').classList.remove('hidden');
-  $('doneMsg').textContent=`Saved ${answers.length} anonymous preferences for Part ${PART}/4 (${rater}). Files downloaded.`;
-  $('donePath').textContent = `Files downloaded with prefix part${PART}_${payload.rater}_…`;
+  $('doneMsg').textContent=`Saved ${answers.length} anonymous preferences (${rater}). Files downloaded.`;
+  $('donePath').textContent = `Files: ${payload.rater}.json / .csv (please email them).`;
   updateProgress();
 }
 
