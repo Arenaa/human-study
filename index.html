@@ -177,7 +177,10 @@ function renderTrial(){
   const methods=Object.keys(t.methods);
   let order=slotOrders[idx];
   if(!order){
-    order=shuffle(methods);
+    // Prefer baked-in balanced A/B order; otherwise shuffle so neither method is fixed left.
+    order = (Array.isArray(t.slot_order) && t.slot_order.length === methods.length)
+      ? t.slot_order.slice()
+      : shuffle(methods);
     slotOrders[idx]=order;
   }
   const labels=['A','B'];
@@ -267,6 +270,8 @@ $('startBtn').onclick=()=>{
   $('intro').classList.add('hidden');
   $('trial').classList.remove('hidden');
   idx=0; answers=[]; slotOrders=[]; choices=[]; lastPayload=null;
+  // Shuffle trial order per participant; A/B sides use baked balanced slot_order.
+  STUDY.trials = shuffle(STUDY.trials);
   renderTrial();
 };
 
