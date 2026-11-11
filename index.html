@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PROVE human preference study</title>
+<title>Human preference study</title>
 <style>
 :root{
   --ink:#15202b; --muted:#5b6773; --line:#d7dde3; --bg:#f4f6f8;
@@ -52,7 +52,7 @@ a.mail{color:var(--accent);font-weight:600}
 </head>
 <body>
 <header>
-  <b>PROVE study</b>
+  <b>Human study</b>
   <span class="meta" id="progress">—</span>
   <div class="bar"><i id="bar"></i></div>
   <span class="meta" id="raterMeta"></span>
@@ -257,12 +257,7 @@ function finishStudy(){
   $('trial').classList.add('hidden');
   $('done').classList.remove('hidden');
   $('doneMsg').textContent=`Saved ${answers.length} anonymous preferences (${rater}). Files downloaded.`;
-  const wins={};
-  for(const t of answers){
-    wins[t.chosen]=(wins[t.chosen]||0)+1;
-  }
-  $('donePath').textContent = 'Your win counts (methods hidden from you during the study):\n' +
-    Object.keys(wins).map(m=>`  ${m}: ${wins[m]}`).join('\n');
+  $('donePath').textContent = `Files: ${payload.rater}.json and ${payload.rater}.csv`;
   updateProgress();
 }
 

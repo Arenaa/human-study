@@ -1,9 +1,8 @@
-# PROVE human preference study
+# Human preference study
 
 Anonymous online study: pick which of two regenerations (**A** / **B**) matches the Original better (100 trials).
 
-**Live page:** after GitHub Pages is enabled →  
-`https://Arenaa.github.io/prove-human-study/`
+**Live page:** https://arenaa.github.io/human-study/
 
 ## For participants
 
@@ -16,12 +15,9 @@ Anonymous online study: pick which of two regenerations (**A** / **B**) matches 
 ## For the organizer (publish / update)
 
 ```bash
-# from this folder
 git add -A
 git commit -m "Update study"
 git push
 ```
 
-GitHub → **Settings → Pages → Deploy from branch `main` / root**.
-
-Add an empty `.nojekyll` file (already included) so `stimuli/` paths work.
+GitHub → **Settings → Pages → Deploy from branch `master` / root**.
