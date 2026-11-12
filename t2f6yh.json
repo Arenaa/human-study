@@ -1,0 +1,446 @@
+{
+  "title": "Human preference study",
+  "part": 4,
+  "task": "preference",
+  "methods": [
+    "PROVE-new",
+    "PromptMiner"
+  ],
+  "generator": "flux",
+  "selection": "random_balanced_per_dataset",
+  "n_per_dataset": {
+    "MSCOCO": 6,
+    "FLICKR": 6,
+    "LEXICA": 6,
+    "JD": 7
+  },
+  "n_trials": 25,
+  "instruction": "Compare two regenerations to the Original image. Choose which one matches the Original better (A or B).",
+  "trials": [
+    {
+      "trial_id": "MSCOCO_000000411530",
+      "dataset": "MSCOCO",
+      "image_id": "000000411530",
+      "row_index": 75,
+      "original": "stimuli_r2/MSCOCO_000000411530/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/MSCOCO_000000411530/A.jpg",
+        "PROVE-new": "stimuli_r2/MSCOCO_000000411530/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "FLICKR_16371",
+      "dataset": "FLICKR",
+      "image_id": "16371",
+      "row_index": 66,
+      "original": "stimuli_r2/FLICKR_16371/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/FLICKR_16371/A.jpg",
+        "PROVE-new": "stimuli_r2/FLICKR_16371/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "JD_e30ece14-7a7a-4900-8c79-86c8418340ea",
+      "dataset": "JD",
+      "image_id": "e30ece14-7a7a-4900-8c79-86c8418340ea",
+      "row_index": 87,
+      "original": "stimuli_r2/JD_e30ece14-7a7a-4900-8c79-86c8418340ea/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/JD_e30ece14-7a7a-4900-8c79-86c8418340ea/A.jpg",
+        "PromptMiner": "stimuli_r2/JD_e30ece14-7a7a-4900-8c79-86c8418340ea/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "MSCOCO_000000343937",
+      "dataset": "MSCOCO",
+      "image_id": "000000343937",
+      "row_index": 60,
+      "original": "stimuli_r2/MSCOCO_000000343937/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/MSCOCO_000000343937/A.jpg",
+        "PromptMiner": "stimuli_r2/MSCOCO_000000343937/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "LEXICA_082",
+      "dataset": "LEXICA",
+      "image_id": "082",
+      "row_index": 82,
+      "original": "stimuli_r2/LEXICA_082/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/LEXICA_082/A.jpg",
+        "PromptMiner": "stimuli_r2/LEXICA_082/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "JD_14c9df0a-0d26-49c1-92fc-9c3863a4ebf7",
+      "dataset": "JD",
+      "image_id": "14c9df0a-0d26-49c1-92fc-9c3863a4ebf7",
+      "row_index": 6,
+      "original": "stimuli_r2/JD_14c9df0a-0d26-49c1-92fc-9c3863a4ebf7/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/JD_14c9df0a-0d26-49c1-92fc-9c3863a4ebf7/A.jpg",
+        "PROVE-new": "stimuli_r2/JD_14c9df0a-0d26-49c1-92fc-9c3863a4ebf7/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "FLICKR_16961",
+      "dataset": "FLICKR",
+      "image_id": "16961",
+      "row_index": 96,
+      "original": "stimuli_r2/FLICKR_16961/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/FLICKR_16961/A.jpg",
+        "PROVE-new": "stimuli_r2/FLICKR_16961/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "MSCOCO_000000519208",
+      "dataset": "MSCOCO",
+      "image_id": "000000519208",
+      "row_index": 87,
+      "original": "stimuli_r2/MSCOCO_000000519208/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/MSCOCO_000000519208/A.jpg",
+        "PROVE-new": "stimuli_r2/MSCOCO_000000519208/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "FLICKR_15777",
+      "dataset": "FLICKR",
+      "image_id": "15777",
+      "row_index": 35,
+      "original": "stimuli_r2/FLICKR_15777/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/FLICKR_15777/A.jpg",
+        "PromptMiner": "stimuli_r2/FLICKR_15777/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "JD_2260017f-0427-491f-823c-4d517d90a272",
+      "dataset": "JD",
+      "image_id": "2260017f-0427-491f-823c-4d517d90a272",
+      "row_index": 11,
+      "original": "stimuli_r2/JD_2260017f-0427-491f-823c-4d517d90a272/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/JD_2260017f-0427-491f-823c-4d517d90a272/A.jpg",
+        "PromptMiner": "stimuli_r2/JD_2260017f-0427-491f-823c-4d517d90a272/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "LEXICA_056",
+      "dataset": "LEXICA",
+      "image_id": "056",
+      "row_index": 56,
+      "original": "stimuli_r2/LEXICA_056/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/LEXICA_056/A.jpg",
+        "PROVE-new": "stimuli_r2/LEXICA_056/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "JD_b9d574a4-e49a-43d4-9377-8403f0457ccf",
+      "dataset": "JD",
+      "image_id": "b9d574a4-e49a-43d4-9377-8403f0457ccf",
+      "row_index": 69,
+      "original": "stimuli_r2/JD_b9d574a4-e49a-43d4-9377-8403f0457ccf/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/JD_b9d574a4-e49a-43d4-9377-8403f0457ccf/A.jpg",
+        "PromptMiner": "stimuli_r2/JD_b9d574a4-e49a-43d4-9377-8403f0457ccf/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "LEXICA_003",
+      "dataset": "LEXICA",
+      "image_id": "003",
+      "row_index": 3,
+      "original": "stimuli_r2/LEXICA_003/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/LEXICA_003/A.jpg",
+        "PromptMiner": "stimuli_r2/LEXICA_003/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "LEXICA_060",
+      "dataset": "LEXICA",
+      "image_id": "060",
+      "row_index": 60,
+      "original": "stimuli_r2/LEXICA_060/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/LEXICA_060/A.jpg",
+        "PromptMiner": "stimuli_r2/LEXICA_060/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "JD_1b534651-1627-4304-b443-ed21ceb67ee4",
+      "dataset": "JD",
+      "image_id": "1b534651-1627-4304-b443-ed21ceb67ee4",
+      "row_index": 9,
+      "original": "stimuli_r2/JD_1b534651-1627-4304-b443-ed21ceb67ee4/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/JD_1b534651-1627-4304-b443-ed21ceb67ee4/A.jpg",
+        "PROVE-new": "stimuli_r2/JD_1b534651-1627-4304-b443-ed21ceb67ee4/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "FLICKR_15615",
+      "dataset": "FLICKR",
+      "image_id": "15615",
+      "row_index": 25,
+      "original": "stimuli_r2/FLICKR_15615/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/FLICKR_15615/A.jpg",
+        "PROVE-new": "stimuli_r2/FLICKR_15615/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "JD_e6a6fd36-3ab8-4d66-b8eb-36fe9ae1e2bc",
+      "dataset": "JD",
+      "image_id": "e6a6fd36-3ab8-4d66-b8eb-36fe9ae1e2bc",
+      "row_index": 90,
+      "original": "stimuli_r2/JD_e6a6fd36-3ab8-4d66-b8eb-36fe9ae1e2bc/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/JD_e6a6fd36-3ab8-4d66-b8eb-36fe9ae1e2bc/A.jpg",
+        "PromptMiner": "stimuli_r2/JD_e6a6fd36-3ab8-4d66-b8eb-36fe9ae1e2bc/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "FLICKR_16868",
+      "dataset": "FLICKR",
+      "image_id": "16868",
+      "row_index": 92,
+      "original": "stimuli_r2/FLICKR_16868/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/FLICKR_16868/A.jpg",
+        "PromptMiner": "stimuli_r2/FLICKR_16868/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "MSCOCO_000000017714",
+      "dataset": "MSCOCO",
+      "image_id": "000000017714",
+      "row_index": 1,
+      "original": "stimuli_r2/MSCOCO_000000017714/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/MSCOCO_000000017714/A.jpg",
+        "PROVE-new": "stimuli_r2/MSCOCO_000000017714/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "FLICKR_15767",
+      "dataset": "FLICKR",
+      "image_id": "15767",
+      "row_index": 34,
+      "original": "stimuli_r2/FLICKR_15767/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/FLICKR_15767/A.jpg",
+        "PROVE-new": "stimuli_r2/FLICKR_15767/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "LEXICA_006",
+      "dataset": "LEXICA",
+      "image_id": "006",
+      "row_index": 6,
+      "original": "stimuli_r2/LEXICA_006/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/LEXICA_006/A.jpg",
+        "PROVE-new": "stimuli_r2/LEXICA_006/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "JD_800ee6cb-4726-49ba-8b04-04ceca68293d",
+      "dataset": "JD",
+      "image_id": "800ee6cb-4726-49ba-8b04-04ceca68293d",
+      "row_index": 48,
+      "original": "stimuli_r2/JD_800ee6cb-4726-49ba-8b04-04ceca68293d/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/JD_800ee6cb-4726-49ba-8b04-04ceca68293d/A.jpg",
+        "PROVE-new": "stimuli_r2/JD_800ee6cb-4726-49ba-8b04-04ceca68293d/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "MSCOCO_000000427649",
+      "dataset": "MSCOCO",
+      "image_id": "000000427649",
+      "row_index": 79,
+      "original": "stimuli_r2/MSCOCO_000000427649/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/MSCOCO_000000427649/A.jpg",
+        "PromptMiner": "stimuli_r2/MSCOCO_000000427649/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "LEXICA_033",
+      "dataset": "LEXICA",
+      "image_id": "033",
+      "row_index": 33,
+      "original": "stimuli_r2/LEXICA_033/original.jpg",
+      "methods": {
+        "PromptMiner": "stimuli_r2/LEXICA_033/A.jpg",
+        "PROVE-new": "stimuli_r2/LEXICA_033/B.jpg"
+      },
+      "slot_order": [
+        "PromptMiner",
+        "PROVE-new"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    },
+    {
+      "trial_id": "MSCOCO_000000232244",
+      "dataset": "MSCOCO",
+      "image_id": "000000232244",
+      "row_index": 45,
+      "original": "stimuli_r2/MSCOCO_000000232244/original.jpg",
+      "methods": {
+        "PROVE-new": "stimuli_r2/MSCOCO_000000232244/A.jpg",
+        "PromptMiner": "stimuli_r2/MSCOCO_000000232244/B.jpg"
+      },
+      "slot_order": [
+        "PROVE-new",
+        "PromptMiner"
+      ],
+      "selection": "random_balanced_per_dataset",
+      "generator": "flux"
+    }
+  ]
+}

@@ -62,7 +62,7 @@ a.mail{color:var(--accent);font-weight:600}
     <h1>Human preference evaluation</h1>
     <p id="instruction">Loading study…</p>
     <p class="hint">There are <b id="nTrials">—</b> trials. This study is <b>anonymous</b>.</p>
-    <p class="hint">When you finish, a results file downloads automatically. Please email it to
+    <p class="hint">When you finish, a JSON results file downloads automatically. Please email it to
       <a class="mail" href="mailto:mk2524@georgetown.edu">mk2524@georgetown.edu</a>.</p>
     <div class="row">
       <button class="btn" id="startBtn" disabled>Start</button>
@@ -90,11 +90,10 @@ a.mail{color:var(--accent);font-weight:600}
   <section class="card hidden" id="done">
     <h1>Thank you</h1>
     <p id="doneMsg">Your preferences were saved.</p>
-    <p class="hint">Please email the downloaded file(s) to
+    <p class="hint">Please email the downloaded file to
       <a class="mail" href="mailto:mk2524@georgetown.edu">mk2524@georgetown.edu</a>.</p>
     <div class="row">
       <button class="btn" id="dlJsonBtn">Download JSON again</button>
-      <button class="btn ghost" id="dlCsvBtn">Download CSV again</button>
       <button class="btn ghost" id="againBtn">New anonymous session</button>
     </div>
     <pre class="meta" id="donePath" style="white-space:pre-wrap;margin-top:12px"></pre>
@@ -121,30 +120,10 @@ function downloadBlob(filename, text, mime){
   URL.revokeObjectURL(url);
 }
 
-function payloadToCsv(payload){
-  const header = ['rater','timestamp','trial_id','dataset','image_id','chosen','other','slot_order'];
-  const lines = [header.join(',')];
-  const ts = payload.timestamp || '';
-  for(const t of payload.trials || []){
-    const row = [
-      payload.rater,
-      ts,
-      t.trial_id,
-      t.dataset,
-      t.image_id,
-      t.chosen,
-      t.other,
-      (t.slot_order||[]).join('|')
-    ].map(v => `"${String(v??'').replace(/"/g,'""')}"`);
-    lines.push(row.join(','));
-  }
-  return lines.join('\n');
-}
-
 function downloadResults(payload){
-  const base = `part${payload.part || PART}_${payload.rater}_${(payload.submission_id||'results').slice(0,8)}`;
+  const partNum = payload.part || PART;
+  const base = `part_${partNum}_${payload.rater}_${(payload.submission_id||'results').slice(0,8)}`;
   downloadBlob(`${base}.json`, JSON.stringify(payload, null, 2), 'application/json');
-  downloadBlob(`${base}.csv`, payloadToCsv(payload), 'text/csv');
 }
 
 async function loadStudy(){
@@ -296,8 +275,8 @@ function finishStudy(){
   downloadResults(payload);
   $('trial').classList.add('hidden');
   $('done').classList.remove('hidden');
-  $('doneMsg').textContent=`Saved ${answers.length} anonymous preferences (${rater}). Files downloaded.`;
-  $('donePath').textContent = `Files: part${PART}_${payload.rater}_….json / .csv`;
+  $('doneMsg').textContent=`Saved ${answers.length} anonymous preferences (${rater}). JSON downloaded.`;
+  $('donePath').textContent = `File: part_${PART}_${payload.rater}_….json`;
   updateProgress();
 }
 
@@ -340,11 +319,11 @@ $('againBtn').onclick=()=>{
   idx=0; updateProgress();
 };
 
-function redownloadName(payload, ext){
-  return `part${payload.part || PART}_${payload.rater}_${(payload.submission_id||'results').slice(0,8)}.${ext}`;
+function redownloadName(payload){
+  const partNum = payload.part || PART;
+  return `part_${partNum}_${payload.rater}_${(payload.submission_id||'results').slice(0,8)}.json`;
 }
-$('dlJsonBtn').onclick=()=>{ if(lastPayload) downloadBlob(redownloadName(lastPayload,'json'), JSON.stringify(lastPayload,null,2), 'application/json'); };
-$('dlCsvBtn').onclick=()=>{ if(lastPayload) downloadBlob(redownloadName(lastPayload,'csv'), payloadToCsv(lastPayload), 'text/csv'); };
+$('dlJsonBtn').onclick=()=>{ if(lastPayload) downloadBlob(redownloadName(lastPayload), JSON.stringify(lastPayload,null,2), 'application/json'); };
 
 loadStudy().catch(err=>{
   $('introErr').textContent=String(err);
