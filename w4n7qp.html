@@ -149,7 +149,7 @@ function downloadResults(payload){
 
 async function loadStudy(){
   document.title = 'Human preference study';
-  const res = await fetch(`${STUDY_FILE}?v=n25b`, {cache: 'no-store'});
+  const res = await fetch(`${STUDY_FILE}?v=n25c`, {cache: 'no-store'});
   if(!res.ok) throw new Error('study data missing');
   STUDY = await res.json();
   // Do not show part/dataset metadata to participants.
@@ -161,7 +161,7 @@ async function loadStudy(){
 
 function bindImg(img, src){
   img.alt = img.alt || '';
-  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=n25b';
+  const bust = (u) => u + (u.includes('?') ? '&' : '?') + 'v=n25c';
   const alt = src.endsWith('.jpg') ? src.replace(/\.jpg$/i, '.png')
             : src.endsWith('.png') ? src.replace(/\.png$/i, '.jpg')
             : null;
@@ -297,7 +297,7 @@ function finishStudy(){
   $('trial').classList.add('hidden');
   $('done').classList.remove('hidden');
   $('doneMsg').textContent=`Saved ${answers.length} anonymous preferences (${rater}). Files downloaded.`;
-  $('donePath').textContent = `Files: ${payload.rater}.json / .csv (please email them).`;
+  $('donePath').textContent = `Files: part${PART}_${payload.rater}_….json / .csv`;
   updateProgress();
 }
 
@@ -340,8 +340,11 @@ $('againBtn').onclick=()=>{
   idx=0; updateProgress();
 };
 
-$('dlJsonBtn').onclick=()=>{ if(lastPayload) downloadBlob(`${lastPayload.rater}.json`, JSON.stringify(lastPayload,null,2), 'application/json'); };
-$('dlCsvBtn').onclick=()=>{ if(lastPayload) downloadBlob(`${lastPayload.rater}.csv`, payloadToCsv(lastPayload), 'text/csv'); };
+function redownloadName(payload, ext){
+  return `part${payload.part || PART}_${payload.rater}_${(payload.submission_id||'results').slice(0,8)}.${ext}`;
+}
+$('dlJsonBtn').onclick=()=>{ if(lastPayload) downloadBlob(redownloadName(lastPayload,'json'), JSON.stringify(lastPayload,null,2), 'application/json'); };
+$('dlCsvBtn').onclick=()=>{ if(lastPayload) downloadBlob(redownloadName(lastPayload,'csv'), payloadToCsv(lastPayload), 'text/csv'); };
 
 loadStudy().catch(err=>{
   $('introErr').textContent=String(err);
